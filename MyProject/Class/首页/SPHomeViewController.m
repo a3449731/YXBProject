@@ -29,6 +29,7 @@
 }
 
 - (void)setupUI {
+    self.view.backgroundColor = [UIColor orangeColor];
     [self creatCollectionView];
 }
 
@@ -89,7 +90,7 @@
 }
 
 - (NSArray<id <IGListDiffable>> *)objectsForListAdapter:(IGListAdapter *)listAdapter {
-    return @[@"1"];
+    return nil;
 }
 
 - (IGListSectionController *)listAdapter:(IGListAdapter *)listAdapter sectionControllerForObject:(id)object {

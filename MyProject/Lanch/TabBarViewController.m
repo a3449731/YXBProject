@@ -24,6 +24,7 @@
     if (self) {
         //        [self customizeTabBarAppearance];
         self.delegate = self;
+        [UITabBar appearance].translucent = NO;
         self.navigationController.navigationBar.hidden = YES;
     }
     return self;
@@ -40,9 +41,9 @@
     self.vcArray = [NSMutableArray array];
     self.configArray = [NSMutableArray array];
     [self configFirstVC];
-//    [self configFirstVC];
-//    [self configFirstVC];
-//    [self configFirstVC];
+    [self configFirstVC];
+    [self configFirstVC];
+    [self configFirstVC];
     UIEdgeInsets imageInsets = UIEdgeInsetsZero;//UIEdgeInsetsMake(4.5, 0, -4.5, 0);
     UIOffset titlePositionAdjustment = UIOffsetMake(0, -3.5);
     return [super initWithViewControllers:self.vcArray tabBarItemsAttributes:self.configArray imageInsets:imageInsets titlePositionAdjustment:titlePositionAdjustment];
@@ -50,9 +51,10 @@
 }
 
 - (void)configFirstVC {
-    UIViewController *vc = [[UIViewController alloc] init];
-    UIViewController *nav = [[CYLBaseNavigationController alloc]
+    UIViewController *vc = [[SPHomeViewController alloc] init];
+    UINavigationController *nav = [[CYLBaseNavigationController alloc]
                              initWithRootViewController:vc];
+    nav.navigationBar.translucent = NO;
     CGFloat firstXOffset = -12/2;
     NSDictionary *firstTabBarItemsAttributes = @{
         CYLTabBarItemTitle : @"首页",

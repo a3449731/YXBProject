@@ -77,6 +77,7 @@
 		0C5523A52379950C00F1C8FE /* YXBColorDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXBColorDefine.h; sourceTree = "<group>"; };
 		0C5523A6237995B200F1C8FE /* MyProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProject.pch; sourceTree = "<group>"; };
 		0C5523A7237997DC00F1C8FE /* YXBDeviceDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXBDeviceDefine.h; sourceTree = "<group>"; };
+		0C5D0363239637BF00F5A773 /* YXBCodeSnipped.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXBCodeSnipped.h; sourceTree = "<group>"; };
 		0CAD6DC0238785CB00306602 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
 		0CAD6DC1238785CB00306602 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
 		0CAD6DE12387B7E400306602 /* NSArray+YXBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YXBAdd.m"; sourceTree = "<group>"; };
@@ -309,6 +310,7 @@
 				0CFBCB7F23812EFB00D3921F /* YXBPublicDefine.h */,
 				0C44D6042394B06E0075DCAD /* YXBConstDefine.h */,
 				0C44D6052394B06E0075DCAD /* YXBConstDefine.m */,
+				0C5D0363239637BF00F5A773 /* YXBCodeSnipped.h */,
 			);
 			path = Public;
 			sourceTree = "<group>";

@@ -20,9 +20,9 @@ PODS:
   - BGFMDB/BG (2.0.13):
     - BGFMDB/FMDB
   - BGFMDB/FMDB (2.0.13)
-  - CYLTabBarController (1.24.2):
-    - CYLTabBarController/Core (= 1.24.2)
-  - CYLTabBarController/Core (1.24.2)
+  - CYLTabBarController (1.28.4):
+    - CYLTabBarController/Core (= 1.28.4)
+  - CYLTabBarController/Core (1.28.4)
   - DateTools (2.0.0)
   - DZNEmptyDataSet (1.8.1)
   - EAIntroView (2.12.0):
@@ -357,7 +357,7 @@ PODS:
 
 DEPENDENCIES:
   - BGFMDB (~> 2.0.9)
-  - CYLTabBarController (~> 1.24.0)
+  - CYLTabBarController (~> 1.28.4)
   - DateTools (~> 2.0.0)
   - DZNEmptyDataSet (~> 1.8.1)
   - EAIntroView (~> 2.12.0)
@@ -370,7 +370,7 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.12)
   - MZFormSheetPresentationController (~> 2.4.3)
   - PPNumberButton (~> 0.8.0)
-  - QMUIKit (~> 4.0.2)
+  - QMUIKit (~> 4.0.3)
   - RRSwipeCell (~> 0.1.1)
   - SDCycleScrollView (~> 1.80)
   - SGQRCode (~> 3.0.1)
@@ -422,7 +422,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
-  CYLTabBarController: e7440ad0992edfb8ac14a6c793f43aa636c5cba5
+  CYLTabBarController: d7160abd77b3a94626cff123fdfaa4f3badde20d
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   EAIntroView: 249559079ddfdbe80e5bcb755c04c3b964b2ac27
@@ -453,6 +453,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: d40f96012ee2af5946b278d6e57948a335245ea1
+PODFILE CHECKSUM: 30084da6d99e928b551493fb2eda35f48b9782d1
 
 COCOAPODS: 1.8.3
