@@ -2,8 +2,8 @@
 //  LYLWKWebView.h
 //  LYLWKWebView
 //
-//  Created by Rainy on 2017/3/21.
-//  Copyright © 2017年 Rainy. All rights reserved.
+//  Created by YangXiaoBin on 2017/3/21.
+//  Copyright © 2017年 YangXiaoBin. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,8 +2,8 @@
 //  YXBCodeSnipped.h
 //  MyProject
 //
-//  Created by ShengChang on 2019/12/3.
-//  Copyright © 2019 ShengChang. All rights reserved.
+//  Created by YangXiaoBin on 2019/12/3.
+//  Copyright © 2019 YangXiaoBin. All rights reserved.
 //
 
 #program mark ---------- 代码块,方便在不同电脑上使用 -----------------

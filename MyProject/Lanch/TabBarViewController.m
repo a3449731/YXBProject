@@ -2,8 +2,8 @@
 //  MainTabBarController.m
 //  CYLTabBarController
 //
-//  v1.21.x Created by 微博@iOS程序犭袁 ( http://weibo.com/luohanchenyilong/ ) on 10/20/15.
-//  Copyright © 2015 https://github.com/ChenYilong . All rights reserved.
+//  Created by YangXiaoBin on 2019/11/11.
+//  Copyright © 2019 YangXiaoBin. All rights reserved.
 //
 #import "TabBarViewController.h"
 #import <UIKit/UIKit.h>
@@ -22,7 +22,6 @@
 - (instancetype)init {
     self = [self configData];
     if (self) {
-        //        [self customizeTabBarAppearance];
         self.delegate = self;
         [UITabBar appearance].translucent = NO;
         self.navigationController.navigationBar.hidden = YES;
@@ -34,7 +33,6 @@
     [super viewDidLoad];
     [[UIApplication sharedApplication] setApplicationSupportsShakeToEdit:YES];
     [self becomeFirstResponder];
-    //    [self customizeInterface];
 }
 
 - (instancetype)configData {
@@ -46,8 +44,7 @@
     [self configFirstVC];
     UIEdgeInsets imageInsets = UIEdgeInsetsZero;//UIEdgeInsetsMake(4.5, 0, -4.5, 0);
     UIOffset titlePositionAdjustment = UIOffsetMake(0, -3.5);
-    return [super initWithViewControllers:self.vcArray tabBarItemsAttributes:self.configArray imageInsets:imageInsets titlePositionAdjustment:titlePositionAdjustment];
-    
+    return [super initWithViewControllers:self.vcArray tabBarItemsAttributes:self.configArray imageInsets:imageInsets titlePositionAdjustment:titlePositionAdjustment];    
 }
 
 - (void)configFirstVC {

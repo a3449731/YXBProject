@@ -2,8 +2,8 @@
 //  YXBTransitionDefine.h
 //  MyProject
 //
-//  Created by ShengChang on 2019/11/12.
-//  Copyright © 2019 ShengChang. All rights reserved.
+//  Created by YangXiaoBin on 2019/11/12.
+//  Copyright © 2019 YangXiaoBin. All rights reserved.
 //
 
 #ifndef YXBTransitionDefine_h

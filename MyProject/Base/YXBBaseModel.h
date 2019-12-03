@@ -2,8 +2,8 @@
 //  YXBBaseModel.h
 //  YunXiaoZhi
 //
-//  Created by APPLE on 2019/10/17.
-//  Copyright © 2019 ShengChang. All rights reserved.
+//  Created by YangXiaoBin on 2019/10/17.
+//  Copyright © 2019 YangXiaoBin. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

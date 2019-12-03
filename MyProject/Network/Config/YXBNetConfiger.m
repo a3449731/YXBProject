@@ -2,7 +2,7 @@
 //  YXBNetConfiger.m
 //  YTKNetworkDemo
 //
-//  Created by ShengChang on 2019/10/30.
+//  Created by YangXiaoBin on 2019/10/30.
 //  Copyright © 2019 yuantiku.com. All rights reserved.
 //
 
