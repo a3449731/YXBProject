@@ -17,6 +17,10 @@
 		0C0BE84D237ECE4C0025D0F9 /* NSArray+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BE84B237ECE4C0025D0F9 /* NSArray+IGListDiffable.m */; };
 		0C0BE852237ED07C0025D0F9 /* MyRequst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BE84F237ED07B0025D0F9 /* MyRequst.m */; };
 		0C0BE853237ED07C0025D0F9 /* YXBNetConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BE851237ED07C0025D0F9 /* YXBNetConfiger.m */; };
+		0C23D59923964CAF0084B326 /* MGiftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23D59123964CAE0084B326 /* MGiftCell.m */; };
+		0C23D59A23964CAF0084B326 /* MShareSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23D59223964CAE0084B326 /* MShareSection.m */; };
+		0C23D59B23964CAF0084B326 /* MGiftSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23D59323964CAE0084B326 /* MGiftSection.m */; };
+		0C23D59C23964CAF0084B326 /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23D59723964CAE0084B326 /* MemberViewController.m */; };
 		0C44D6022394AE660075DCAD /* LYLWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44D5FE2394AE650075DCAD /* LYLWKWebView.m */; };
 		0C44D6032394AE660075DCAD /* WCQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44D6012394AE660075DCAD /* WCQRCodeVC.m */; };
 		0C44D6062394B06E0075DCAD /* YXBConstDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44D6052394B06E0075DCAD /* YXBConstDefine.m */; };
@@ -62,6 +66,14 @@
 		0C0BE84F237ED07B0025D0F9 /* MyRequst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRequst.m; sourceTree = "<group>"; };
 		0C0BE850237ED07C0025D0F9 /* MyRequst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRequst.h; sourceTree = "<group>"; };
 		0C0BE851237ED07C0025D0F9 /* YXBNetConfiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBNetConfiger.m; sourceTree = "<group>"; };
+		0C23D59123964CAE0084B326 /* MGiftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGiftCell.m; sourceTree = "<group>"; };
+		0C23D59223964CAE0084B326 /* MShareSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MShareSection.m; sourceTree = "<group>"; };
+		0C23D59323964CAE0084B326 /* MGiftSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGiftSection.m; sourceTree = "<group>"; };
+		0C23D59423964CAE0084B326 /* MemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
+		0C23D59523964CAE0084B326 /* MShareSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MShareSection.h; sourceTree = "<group>"; };
+		0C23D59623964CAE0084B326 /* MGiftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGiftCell.h; sourceTree = "<group>"; };
+		0C23D59723964CAE0084B326 /* MemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberViewController.m; sourceTree = "<group>"; };
+		0C23D59823964CAE0084B326 /* MGiftSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGiftSection.h; sourceTree = "<group>"; };
 		0C44D5FE2394AE650075DCAD /* LYLWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLWKWebView.m; sourceTree = "<group>"; };
 		0C44D5FF2394AE660075DCAD /* WCQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCQRCodeVC.h; sourceTree = "<group>"; };
 		0C44D6002394AE660075DCAD /* LYLWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLWKWebView.h; sourceTree = "<group>"; };
@@ -290,6 +302,7 @@
 		0C0A1E112376926D004F886B /* 会员 */ = {
 			isa = PBXGroup;
 			children = (
+				0C23D59023964CAE0084B326 /* 会员首页 */,
 			);
 			path = "会员";
 			sourceTree = "<group>";
@@ -301,6 +314,21 @@
 				0CD17C122376BA9E00B38DC8 /* SPHomeViewController.m */,
 			);
 			path = "首页";
+			sourceTree = "<group>";
+		};
+		0C23D59023964CAE0084B326 /* 会员首页 */ = {
+			isa = PBXGroup;
+			children = (
+				0C23D59423964CAE0084B326 /* MemberViewController.h */,
+				0C23D59723964CAE0084B326 /* MemberViewController.m */,
+				0C23D59523964CAE0084B326 /* MShareSection.h */,
+				0C23D59223964CAE0084B326 /* MShareSection.m */,
+				0C23D59823964CAE0084B326 /* MGiftSection.h */,
+				0C23D59323964CAE0084B326 /* MGiftSection.m */,
+				0C23D59623964CAE0084B326 /* MGiftCell.h */,
+				0C23D59123964CAE0084B326 /* MGiftCell.m */,
+			);
+			path = "会员首页";
 			sourceTree = "<group>";
 		};
 		0C5523A22379936900F1C8FE /* Public */ = {
@@ -484,14 +512,18 @@
 				0CAD6DE62387B7E400306602 /* UIImage+YXBAdd.m in Sources */,
 				0CAD6DE52387B7E400306602 /* NSArray+YXBAdd.m in Sources */,
 				0C44D6022394AE660075DCAD /* LYLWKWebView.m in Sources */,
+				0C23D59B23964CAF0084B326 /* MGiftSection.m in Sources */,
 				0C0BE852237ED07C0025D0F9 /* MyRequst.m in Sources */,
 				0CFBCB9023812F2700D3921F /* YXBTapAreaButton.m in Sources */,
 				0CFBCB9323812FAE00D3921F /* NSObject+YXBAdd.m in Sources */,
 				0C0A1E17237693B7004F886B /* AppDelegate.m in Sources */,
 				0CFBCB8B23812F2700D3921F /* YXBCheckRegular.m in Sources */,
+				0C23D59C23964CAF0084B326 /* MemberViewController.m in Sources */,
 				0C0BE844237ECC720025D0F9 /* YXBCollectionCell.m in Sources */,
 				0C0A1E18237693B7004F886B /* main.m in Sources */,
 				0C0BE83D237ECC0E0025D0F9 /* YXBBaseModel.m in Sources */,
+				0C23D59A23964CAF0084B326 /* MShareSection.m in Sources */,
+				0C23D59923964CAF0084B326 /* MGiftCell.m in Sources */,
 				0C0BE853237ED07C0025D0F9 /* YXBNetConfiger.m in Sources */,
 				0C0BE84D237ECE4C0025D0F9 /* NSArray+IGListDiffable.m in Sources */,
 			);
