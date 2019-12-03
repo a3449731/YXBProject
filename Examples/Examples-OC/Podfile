@@ -34,4 +34,12 @@ pod 'WMPageController', '~> 2.5.2'
 pod 'XLForm', '~> 4.1.0'
 pod 'IQKeyboardManager', '~> 6.5.4'
 
+# 发圈使用的sdk
+pod 'PLShortVideoKit'
+pod 'Qiniu'
+pod 'PLPlayerKit', '~> 3.4.3'
+#  pod "PLPlayerKit", :podspec => 'https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec'
+pod 'MMMaterialDesignSpinner'
+pod 'JGProgressHUD'
+
 end

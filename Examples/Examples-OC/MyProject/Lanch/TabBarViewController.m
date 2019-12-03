@@ -10,6 +10,7 @@
 
 #import "SPHomeViewController.h"
 #import "MemberViewController.h"
+#import "CMHomeViewController.h"
 
 @interface TabBarViewController ()<UITabBarControllerDelegate>
 
@@ -40,7 +41,7 @@
     self.vcArray = [NSMutableArray array];
     self.configArray = [NSMutableArray array];
     [self configFirstVC];
-    [self configFirstVC];
+    [self configSecondVC];
     [self configThiredVC];
     [self configFirstVC];
     UIEdgeInsets imageInsets = UIEdgeInsetsZero;//UIEdgeInsetsMake(4.5, 0, -4.5, 0);
@@ -58,6 +59,26 @@
         CYLTabBarItemTitle : @"首页",
         CYLTabBarItemImage : @"home_normal",  /* NSString and UIImage are supported*/
         CYLTabBarItemSelectedImage : @"home_highlight",  /* NSString and UIImage are supported*/
+        CYLTabBarItemTitlePositionAdjustment: [NSValue valueWithUIOffset:UIOffsetMake(firstXOffset, -3.5)],
+//        CYLTabBarItemTitlePositionAdjustment: [NSValue valueWithUIOffset:UIOffsetMake(-firstXOffset, -3.5)],
+//        CYLTabBarLottieURL: [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"tab_me_animate" ofType:@"json"]],
+//        CYLTabBarLottieSize: [NSValue valueWithCGSize:CGSizeMake(22, 22)]
+    };
+    //    [nav cyl_setHideNavigationBarSeparator:YES];
+    [self.vcArray addObject:nav];
+    [self.configArray addObject:firstTabBarItemsAttributes];
+}
+
+- (void)configSecondVC {
+    UIViewController *vc = [[CMHomeViewController alloc] init];
+    UINavigationController *nav = [[CYLBaseNavigationController alloc]
+                             initWithRootViewController:vc];
+    nav.navigationBar.translucent = NO;
+    CGFloat firstXOffset = -12/2;
+    NSDictionary *firstTabBarItemsAttributes = @{
+        CYLTabBarItemTitle : @"发圈",
+        CYLTabBarItemImage : @"gray_tabbar_message_animation_lottie_placeholder",  /* NSString and UIImage are supported*/
+        CYLTabBarItemSelectedImage : @"message_highlight",  /* NSString and UIImage are supported*/
         CYLTabBarItemTitlePositionAdjustment: [NSValue valueWithUIOffset:UIOffsetMake(firstXOffset, -3.5)],
 //        CYLTabBarItemTitlePositionAdjustment: [NSValue valueWithUIOffset:UIOffsetMake(-firstXOffset, -3.5)],
 //        CYLTabBarLottieURL: [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"tab_me_animate" ofType:@"json"]],

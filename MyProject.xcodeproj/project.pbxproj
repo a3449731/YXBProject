@@ -17,6 +17,7 @@
 		0C0BE84D237ECE4C0025D0F9 /* NSArray+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BE84B237ECE4C0025D0F9 /* NSArray+IGListDiffable.m */; };
 		0C0BE852237ED07C0025D0F9 /* MyRequst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BE84F237ED07B0025D0F9 /* MyRequst.m */; };
 		0C0BE853237ED07C0025D0F9 /* YXBNetConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BE851237ED07C0025D0F9 /* YXBNetConfiger.m */; };
+		0C23D611239659490084B326 /* YXBButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23D60F239659480084B326 /* YXBButtonCell.m */; };
 		0C44D6022394AE660075DCAD /* LYLWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44D5FE2394AE650075DCAD /* LYLWKWebView.m */; };
 		0C44D6032394AE660075DCAD /* WCQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44D6012394AE660075DCAD /* WCQRCodeVC.m */; };
 		0C44D6062394B06E0075DCAD /* YXBConstDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44D6052394B06E0075DCAD /* YXBConstDefine.m */; };
@@ -62,6 +63,8 @@
 		0C0BE84F237ED07B0025D0F9 /* MyRequst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRequst.m; sourceTree = "<group>"; };
 		0C0BE850237ED07C0025D0F9 /* MyRequst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRequst.h; sourceTree = "<group>"; };
 		0C0BE851237ED07C0025D0F9 /* YXBNetConfiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBNetConfiger.m; sourceTree = "<group>"; };
+		0C23D60F239659480084B326 /* YXBButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBButtonCell.m; sourceTree = "<group>"; };
+		0C23D610239659480084B326 /* YXBButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBButtonCell.h; sourceTree = "<group>"; };
 		0C44D5FE2394AE650075DCAD /* LYLWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLWKWebView.m; sourceTree = "<group>"; };
 		0C44D5FF2394AE660075DCAD /* WCQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCQRCodeVC.h; sourceTree = "<group>"; };
 		0C44D6002394AE660075DCAD /* LYLWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLWKWebView.h; sourceTree = "<group>"; };
@@ -184,6 +187,8 @@
 				0C0BE849237ECD530025D0F9 /* YXBSection.m */,
 				0C0BE83F237ECC1C0025D0F9 /* YXBCell.h */,
 				0C0BE840237ECC1C0025D0F9 /* YXBCell.m */,
+				0C23D610239659480084B326 /* YXBButtonCell.h */,
+				0C23D60F239659480084B326 /* YXBButtonCell.m */,
 				0C0BE843237ECC720025D0F9 /* YXBCollectionCell.h */,
 				0C0BE842237ECC720025D0F9 /* YXBCollectionCell.m */,
 				0C0BE845237ECC890025D0F9 /* YXBHeaderView.h */,
@@ -472,6 +477,7 @@
 				0CFBCB8C23812F2700D3921F /* ChineseToPinyin.m in Sources */,
 				0C0BE84A237ECD530025D0F9 /* YXBSection.m in Sources */,
 				0CFBCB8E23812F2700D3921F /* YXBTextField.m in Sources */,
+				0C23D611239659490084B326 /* YXBButtonCell.m in Sources */,
 				0C44D6062394B06E0075DCAD /* YXBConstDefine.m in Sources */,
 				0C44D60C2394C3290075DCAD /* LanchPageModel.m in Sources */,
 				0C0BE847237ECC890025D0F9 /* YXBHeaderView.m in Sources */,
