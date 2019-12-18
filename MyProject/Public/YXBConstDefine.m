@@ -8,8 +8,11 @@
 
 #import "YXBConstDefine.h"
 
-NSString *const PKStringZQBCoupon = @"ZQB兑换券";
-NSInteger const PKTabbarIndexHome = 0;
+// 精度控制
+NSInteger const YXBAccuracyTwo = 2;
+NSInteger const YXBAccuracyFour = 4;
+NSInteger const YXBAccuracyEight = 8;
+NSString *const YXBAccuracyAddString = @"0"; // 补精度使用的字符串
 
 
 @implementation YXBConstDefine

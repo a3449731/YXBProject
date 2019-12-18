@@ -47,7 +47,6 @@
 
  @param limitMemory rom限制
  @param size 图片size, 当为CGSizeZero时，自动裁剪成屏幕大小。
- @return
  */
 - (NSString *)coverToBase64LimitMemoryMB:(CGFloat)limitMemory targetSize:(CGSize)size;
 

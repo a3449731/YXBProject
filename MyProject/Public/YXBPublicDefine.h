@@ -10,8 +10,9 @@
 #define YXBPublicDefine_h
 
 #import <Toast/UIView+Toast.h>
+#import "NSObject+YXBAdd.h"
 
-#define ShowToast(msg) [[UIApplication sharedApplication].keyWindow makeToast:msg duration:1 position:CSToastPositionCenter];
+#define ShowToast(msg) [[UIApplication sharedApplication].keyWindow makeToast:msg duration:3 position:CSToastPositionCenter];
 
 /**
 修正数据精度丢失
@@ -20,6 +21,9 @@
 **/
 NS_INLINE NSString *getReviseNumberData(NSString *original) {
 //    double originalValue = [original doubleValue];
+    if (original == nil || [original yxb_isNull]) {
+        return @"";
+    }
     NSString *revisetring = [NSString stringWithFormat:@"%@", original];
     NSDecimalNumber *input = [NSDecimalNumber decimalNumberWithString:revisetring];
     // 精度处理
@@ -43,15 +47,25 @@ NS_INLINE NSString *getReviseNumberData(NSString *original) {
 /// @param scale 几位小数
 /// @param AddString 小数位补什么. 一般补0
 NS_INLINE NSString *stringRepairScaleWithString(NSString *original, NSInteger scale, NSString *AddString) {
+    if ((original == nil || [original yxb_isNull])  || (AddString == nil || [AddString yxb_isNull])) {
+        return @"";
+    }
+    
     if ([original containsString:@"."]) {
         NSString *before = [original componentsSeparatedByString:@"."].firstObject;
         NSString *behind = [original componentsSeparatedByString:@"."].lastObject;
-        NSString *ret = [[NSString alloc] init];
-        ret = behind;
-        for(int y =0; y < (scale - behind.length); y++ ){
-            ret = [NSString stringWithFormat:@"%@%@",ret,AddString];
+        if (behind.length < scale) {
+            NSString *ret = [[NSString alloc] init];
+            ret = behind;
+            for(int y =0; y < (scale - behind.length); y++ ){
+                ret = [NSString stringWithFormat:@"%@%@",ret,AddString];
+            }
+            return [@[before,ret] componentsJoinedByString:@"."];
+        } else {
+            NSString *ret = [[NSString alloc] init];
+            ret = [behind substringToIndex:scale];
+            return [@[before,ret] componentsJoinedByString:@"."];
         }
-        return [@[before,ret] componentsJoinedByString:@"."];
     } else {
         NSString *ret = [[NSString alloc] init];
         for(int y =0; y < scale; y++ ){
@@ -108,6 +122,21 @@ NS_INLINE NSString *stringDivideString(NSString *firstString, NSString *secondSt
     NSDecimalNumber *twoNumber = [NSDecimalNumber decimalNumberWithString:secondString];
     NSDecimalNumber *resultNumber = [oneNumber decimalNumberByDividingBy:twoNumber];
     return [resultNumber stringValue];
+}
+
+
+/// 标签文本转为富文本
+/// @param text 标签文本
+NS_INLINE NSAttributedString *attributedStringWithHTMLString(NSString *text) {
+    NSAttributedString * attrStr = [[NSAttributedString alloc] initWithData:[text dataUsingEncoding:NSUnicodeStringEncoding] options:@{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType } documentAttributes:nil error:nil];
+    if (attrStr == nil) {
+        attrStr = [[NSAttributedString alloc] initWithString:@"                                                                                                                                 "];
+    }
+    if (attrStr.length < 30) {
+        NSString *newString = [attrStr.string stringByAppendingString:@"                                                                                                                                 "];
+        attrStr = [[NSAttributedString alloc] initWithString:newString];
+    }
+    return attrStr;
 }
 
 #endif /* YXBPublicDefine_h */

@@ -31,6 +31,15 @@
 		0CD17C0E2376AE1A00B38DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0A1DF923765D94004F886B /* Assets.xcassets */; };
 		0CD17C102376AF5800B38DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD17C0F2376AF5800B38DC8 /* LaunchScreen.storyboard */; };
 		0CD17C132376BA9E00B38DC8 /* SPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD17C122376BA9E00B38DC8 /* SPHomeViewController.m */; };
+		0CF78B1D23AA10F70077044C /* YXBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF78B1C23AA10F70077044C /* YXBNavigationController.m */; };
+		0CF78B2023AA11650077044C /* YXBImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF78B1E23AA11640077044C /* YXBImageCell.m */; };
+		0CF78B2723AA11CB0077044C /* YXBFormLeftRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF78B2123AA11CB0077044C /* YXBFormLeftRightCell.m */; };
+		0CF78B2823AA11CB0077044C /* YXBFormImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF78B2323AA11CB0077044C /* YXBFormImageCell.m */; };
+		0CF78B2923AA11CB0077044C /* YXBFormTopBottomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF78B2423AA11CB0077044C /* YXBFormTopBottomCell.m */; };
+		0CF78B2E23AA129B0077044C /* UIButton+YXBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF78B2B23AA129B0077044C /* UIButton+YXBAdd.m */; };
+		0CF78B2F23AA129B0077044C /* UIViewController+YXBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF78B2D23AA129B0077044C /* UIViewController+YXBAdd.m */; };
+		0CF78B3223AA18F80077044C /* YXBFormLeftRightBgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF78B3123AA18F80077044C /* YXBFormLeftRightBgCell.m */; };
+		0CF78B3A23AA23650077044C /* UIView+Xib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF78B3923AA23650077044C /* UIView+Xib.m */; };
 		0CFBCB8B23812F2700D3921F /* YXBCheckRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8023812F2700D3921F /* YXBCheckRegular.m */; };
 		0CFBCB8C23812F2700D3921F /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8123812F2700D3921F /* ChineseToPinyin.m */; };
 		0CFBCB8D23812F2700D3921F /* YXBUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8423812F2700D3921F /* YXBUnicode.m */; };
@@ -93,6 +102,24 @@
 		0CD17C0F2376AF5800B38DC8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CD17C112376BA9E00B38DC8 /* SPHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPHomeViewController.h; sourceTree = "<group>"; };
 		0CD17C122376BA9E00B38DC8 /* SPHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPHomeViewController.m; sourceTree = "<group>"; };
+		0CF78B1B23AA10F60077044C /* YXBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBNavigationController.h; sourceTree = "<group>"; };
+		0CF78B1C23AA10F70077044C /* YXBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBNavigationController.m; sourceTree = "<group>"; };
+		0CF78B1E23AA11640077044C /* YXBImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBImageCell.m; sourceTree = "<group>"; };
+		0CF78B1F23AA11650077044C /* YXBImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBImageCell.h; sourceTree = "<group>"; };
+		0CF78B2123AA11CB0077044C /* YXBFormLeftRightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBFormLeftRightCell.m; sourceTree = "<group>"; };
+		0CF78B2223AA11CB0077044C /* YXBFormTopBottomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFormTopBottomCell.h; sourceTree = "<group>"; };
+		0CF78B2323AA11CB0077044C /* YXBFormImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBFormImageCell.m; sourceTree = "<group>"; };
+		0CF78B2423AA11CB0077044C /* YXBFormTopBottomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBFormTopBottomCell.m; sourceTree = "<group>"; };
+		0CF78B2523AA11CB0077044C /* YXBFormImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFormImageCell.h; sourceTree = "<group>"; };
+		0CF78B2623AA11CB0077044C /* YXBFormLeftRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFormLeftRightCell.h; sourceTree = "<group>"; };
+		0CF78B2A23AA129B0077044C /* UIViewController+YXBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YXBAdd.h"; sourceTree = "<group>"; };
+		0CF78B2B23AA129B0077044C /* UIButton+YXBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YXBAdd.m"; sourceTree = "<group>"; };
+		0CF78B2C23AA129B0077044C /* UIButton+YXBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YXBAdd.h"; sourceTree = "<group>"; };
+		0CF78B2D23AA129B0077044C /* UIViewController+YXBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YXBAdd.m"; sourceTree = "<group>"; };
+		0CF78B3023AA18F80077044C /* YXBFormLeftRightBgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXBFormLeftRightBgCell.h; sourceTree = "<group>"; };
+		0CF78B3123AA18F80077044C /* YXBFormLeftRightBgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXBFormLeftRightBgCell.m; sourceTree = "<group>"; };
+		0CF78B3823AA23650077044C /* UIView+Xib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Xib.h"; sourceTree = "<group>"; };
+		0CF78B3923AA23650077044C /* UIView+Xib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Xib.m"; sourceTree = "<group>"; };
 		0CFBCB7F23812EFB00D3921F /* YXBPublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXBPublicDefine.h; sourceTree = "<group>"; };
 		0CFBCB8023812F2700D3921F /* YXBCheckRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBCheckRegular.m; sourceTree = "<group>"; };
 		0CFBCB8123812F2700D3921F /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
@@ -165,6 +192,8 @@
 				0C5523A6237995B200F1C8FE /* MyProject.pch */,
 				0C0A1E15237693B7004F886B /* main.m */,
 				0C0A1E16237693B7004F886B /* Info.plist */,
+				0CF78B1B23AA10F60077044C /* YXBNavigationController.h */,
+				0CF78B1C23AA10F70077044C /* YXBNavigationController.m */,
 				0CD17C0B23769CB700B38DC8 /* TabBarViewController.h */,
 				0CD17C0C23769CB700B38DC8 /* TabBarViewController.m */,
 				0CD17C0F2376AF5800B38DC8 /* LaunchScreen.storyboard */,
@@ -189,10 +218,20 @@
 				0C0BE840237ECC1C0025D0F9 /* YXBCell.m */,
 				0C23D610239659480084B326 /* YXBButtonCell.h */,
 				0C23D60F239659480084B326 /* YXBButtonCell.m */,
+				0CF78B1F23AA11650077044C /* YXBImageCell.h */,
+				0CF78B1E23AA11640077044C /* YXBImageCell.m */,
 				0C0BE843237ECC720025D0F9 /* YXBCollectionCell.h */,
 				0C0BE842237ECC720025D0F9 /* YXBCollectionCell.m */,
 				0C0BE845237ECC890025D0F9 /* YXBHeaderView.h */,
 				0C0BE846237ECC890025D0F9 /* YXBHeaderView.m */,
+				0CF78B2523AA11CB0077044C /* YXBFormImageCell.h */,
+				0CF78B2323AA11CB0077044C /* YXBFormImageCell.m */,
+				0CF78B2623AA11CB0077044C /* YXBFormLeftRightCell.h */,
+				0CF78B2123AA11CB0077044C /* YXBFormLeftRightCell.m */,
+				0CF78B3023AA18F80077044C /* YXBFormLeftRightBgCell.h */,
+				0CF78B3123AA18F80077044C /* YXBFormLeftRightBgCell.m */,
+				0CF78B2223AA11CB0077044C /* YXBFormTopBottomCell.h */,
+				0CF78B2423AA11CB0077044C /* YXBFormTopBottomCell.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -200,6 +239,8 @@
 		0C0A1E08237691A1004F886B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0CF78B3823AA23650077044C /* UIView+Xib.h */,
+				0CF78B3923AA23650077044C /* UIView+Xib.m */,
 				0C0BE84C237ECE4C0025D0F9 /* NSArray+IGListDiffable.h */,
 				0C0BE84B237ECE4C0025D0F9 /* NSArray+IGListDiffable.m */,
 				0CFBCB9123812FAE00D3921F /* NSObject+YXBAdd.h */,
@@ -208,6 +249,10 @@
 				0CAD6DE12387B7E400306602 /* NSArray+YXBAdd.m */,
 				0CAD6DE32387B7E400306602 /* UIImage+YXBAdd.h */,
 				0CAD6DE22387B7E400306602 /* UIImage+YXBAdd.m */,
+				0CF78B2C23AA129B0077044C /* UIButton+YXBAdd.h */,
+				0CF78B2B23AA129B0077044C /* UIButton+YXBAdd.m */,
+				0CF78B2A23AA129B0077044C /* UIViewController+YXBAdd.h */,
+				0CF78B2D23AA129B0077044C /* UIViewController+YXBAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -468,16 +513,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF78B3223AA18F80077044C /* YXBFormLeftRightBgCell.m in Sources */,
 				0C44D6032394AE660075DCAD /* WCQRCodeVC.m in Sources */,
 				0CD17C132376BA9E00B38DC8 /* SPHomeViewController.m in Sources */,
+				0CF78B2F23AA129B0077044C /* UIViewController+YXBAdd.m in Sources */,
 				0CD17C0D23769CB700B38DC8 /* TabBarViewController.m in Sources */,
+				0CF78B2E23AA129B0077044C /* UIButton+YXBAdd.m in Sources */,
 				0C44D60F2394C4600075DCAD /* LanchAPI.m in Sources */,
 				0CAD6DC2238785CB00306602 /* UserManager.m in Sources */,
 				0C0BE841237ECC1C0025D0F9 /* YXBCell.m in Sources */,
 				0CFBCB8C23812F2700D3921F /* ChineseToPinyin.m in Sources */,
 				0C0BE84A237ECD530025D0F9 /* YXBSection.m in Sources */,
 				0CFBCB8E23812F2700D3921F /* YXBTextField.m in Sources */,
+				0CF78B2723AA11CB0077044C /* YXBFormLeftRightCell.m in Sources */,
+				0CF78B2023AA11650077044C /* YXBImageCell.m in Sources */,
 				0C23D611239659490084B326 /* YXBButtonCell.m in Sources */,
+				0CF78B2923AA11CB0077044C /* YXBFormTopBottomCell.m in Sources */,
 				0C44D6062394B06E0075DCAD /* YXBConstDefine.m in Sources */,
 				0C44D60C2394C3290075DCAD /* LanchPageModel.m in Sources */,
 				0C0BE847237ECC890025D0F9 /* YXBHeaderView.m in Sources */,
@@ -487,8 +538,10 @@
 				0CAD6DE52387B7E400306602 /* NSArray+YXBAdd.m in Sources */,
 				0C44D6022394AE660075DCAD /* LYLWKWebView.m in Sources */,
 				0C0BE852237ED07C0025D0F9 /* MyRequst.m in Sources */,
+				0CF78B3A23AA23650077044C /* UIView+Xib.m in Sources */,
 				0CFBCB9023812F2700D3921F /* YXBTapAreaButton.m in Sources */,
 				0CFBCB9323812FAE00D3921F /* NSObject+YXBAdd.m in Sources */,
+				0CF78B2823AA11CB0077044C /* YXBFormImageCell.m in Sources */,
 				0C0A1E17237693B7004F886B /* AppDelegate.m in Sources */,
 				0CFBCB8B23812F2700D3921F /* YXBCheckRegular.m in Sources */,
 				0C0BE844237ECC720025D0F9 /* YXBCollectionCell.m in Sources */,
@@ -496,6 +549,7 @@
 				0C0BE83D237ECC0E0025D0F9 /* YXBBaseModel.m in Sources */,
 				0C0BE853237ED07C0025D0F9 /* YXBNetConfiger.m in Sources */,
 				0C0BE84D237ECE4C0025D0F9 /* NSArray+IGListDiffable.m in Sources */,
+				0CF78B1D23AA10F70077044C /* YXBNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

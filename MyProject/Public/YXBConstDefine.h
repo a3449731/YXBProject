@@ -12,9 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YXBConstDefine : NSObject
 
-#pragma makr ------- example ----------------
-extern NSString *const PKStringZQBCoupon;
-extern NSInteger const PKTabbarIndexMoney;
+// 精度
+extern NSInteger const YXBAccuracyTwo;
+extern NSInteger const YXBAccuracyFour;
+extern NSInteger const YXBAccuracyEight;
+extern NSString *const YXBAccuracyAddString; // 补精度使用的字符串
 
 @end
 

@@ -23,7 +23,7 @@
     } else {
         NSString *message = [self.responseJSONObject valueForKey:@"msg"];
 //        message = [NSString stringWithFormat:@"%@\n%@",self.currentRequest,message];
-//        ShowToast(message);
+        ShowToast(message);
         return NO;
     }
 }

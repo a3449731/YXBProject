@@ -423,7 +423,7 @@
 - (CGRect)boundsWithAttributeString:(NSMutableAttributedString *)attributeString  needWidth:(CGFloat)needWidth
 {
     
-    CGRect rect = [attributeString boundingRectWithSize:CGSizeMake(needWidth, CGFLOAT_MAX) options:nil context:nil];
+    CGRect rect = [attributeString boundingRectWithSize:CGSizeMake(needWidth, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin context:nil];
     
     return rect;
 }

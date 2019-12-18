@@ -19,5 +19,6 @@
 #import <Masonry/Masonry.h>
 #import <QMUIKit/QMUIButton.h>
 #import <UINavigationController+FDFullscreenPopGesture.h>
+#import "UIViewController+YXBAdd.h" // 配合YXBNavigationController控制 状态栏的颜色 因为父类实现了childViewControllerForStatusBarStyle方法, 使得preferredStatusBarStyle能在 viewcontroller， navigation，tabbar中生效。
 
 #endif /* MyProject_pch */
