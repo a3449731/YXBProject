@@ -671,7 +671,8 @@
 			baseConfigurationReference = 929279B1344DFDA0EC8C48A3 /* Pods-MyProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 99978K4746;
 				GCC_PREFIX_HEADER = MyProject/Lanch/MyProject.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/MyProject/Lanch/Info.plist";
@@ -682,6 +683,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sckj.MyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard Dev(ShengChang)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -691,7 +693,8 @@
 			baseConfigurationReference = 7C0EAFC7B7E9B19FB72FC0C8 /* Pods-MyProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 99978K4746;
 				GCC_PREFIX_HEADER = MyProject/Lanch/MyProject.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/MyProject/Lanch/Info.plist";
@@ -702,6 +705,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sckj.MyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard Ad Hoc(ShengChang)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

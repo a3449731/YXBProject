@@ -48,12 +48,15 @@ NSString *const YXBFormRowDescriptorTypeImageCell = @"YXBFormRowDescriptorTypeIm
 - (void)update {
     [super update];
     NSString *string = self.rowDescriptor.value;
-    if (string) {
+    if ([string isKindOfClass:[NSString class]]) {
         if ([string hasPrefix:@"http"]) {
             [self.imageView sd_setImageWithURL:[NSURL URLWithString:string]];
         } else {
             self.imageView.image = [UIImage imageNamed:string];
         }
+    }
+    if ([string isKindOfClass:[UIImage class]]) {
+        self.imageView.image = (UIImage *)string;
     }
 }
 
