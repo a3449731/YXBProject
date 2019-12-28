@@ -13,4 +13,6 @@
 
 @property(nonatomic,strong)WKWebView *webView;
 
+@property(nonatomic, strong)UIProgressView *progressView;
+
 @end

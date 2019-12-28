@@ -38,14 +38,22 @@ NS_INLINE NSString *stringRepairScaleWithString(NSString *original, NSInteger sc
         } else {
             NSString *ret = [[NSString alloc] init];
             ret = [behind substringToIndex:scale];
-            return [@[before,ret] componentsJoinedByString:@"."];
+            if (ret.length == 0) {
+                return before;
+            } else {
+                return [@[before,ret] componentsJoinedByString:@"."];
+            }
         }
     } else {
         NSString *ret = [[NSString alloc] init];
         for(int y =0; y < scale; y++ ){
             ret = [NSString stringWithFormat:@"%@%@",ret,AddString];
         }
-        return [@[original,ret] componentsJoinedByString:@"."];
+        if (ret.length == 0) {
+            return original;
+        } else {
+            return [@[original,ret] componentsJoinedByString:@"."];
+        }
     }
 }
 
@@ -158,6 +166,9 @@ NS_INLINE NSString *stringDivideString(NSString *firstString, NSString *secondSt
         firstString = @"0";
     }
     if (secondString.length == 0) {
+        return @"0";
+    }
+    if ([secondString isEqualToString:@"0"]) {
         return @"0";
     }
     NSDecimalNumber *oneNumber = [NSDecimalNumber decimalNumberWithString:firstString];

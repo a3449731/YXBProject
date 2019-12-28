@@ -9,6 +9,7 @@
 #import "YXBConstDefine.h"
 
 // 精度控制
+NSInteger const YXBAccuracyZero = 0;
 NSInteger const YXBAccuracyTwo = 2;
 NSInteger const YXBAccuracyFour = 4;
 NSInteger const YXBAccuracyEight = 8;

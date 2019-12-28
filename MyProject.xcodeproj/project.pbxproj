@@ -46,6 +46,9 @@
 		0CFBCB8E23812F2700D3921F /* YXBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8823812F2700D3921F /* YXBTextField.m */; };
 		0CFBCB9023812F2700D3921F /* YXBTapAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8A23812F2700D3921F /* YXBTapAreaButton.m */; };
 		0CFBCB9323812FAE00D3921F /* NSObject+YXBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB9223812FAE00D3921F /* NSObject+YXBAdd.m */; };
+		2F0C62A723B7403F0093E1F9 /* CDDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C62A423B7403E0093E1F9 /* CDDetailHeaderView.m */; };
+		2F0C62A823B7403F0093E1F9 /* CDDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C62A623B7403E0093E1F9 /* CDDetailHeaderView.xib */; };
+		2F0C62AB23B742B50093E1F9 /* NSLayoutConstraint+AutoScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C62AA23B742B50093E1F9 /* NSLayoutConstraint+AutoScale.m */; };
 		A4FE7B8D7B7C6973D315CE7E /* Pods_MyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6448849933EFE3C2D4A6647 /* Pods_MyProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -132,6 +135,11 @@
 		0CFBCB8A23812F2700D3921F /* YXBTapAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBTapAreaButton.m; sourceTree = "<group>"; };
 		0CFBCB9123812FAE00D3921F /* NSObject+YXBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YXBAdd.h"; sourceTree = "<group>"; };
 		0CFBCB9223812FAE00D3921F /* NSObject+YXBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YXBAdd.m"; sourceTree = "<group>"; };
+		2F0C62A423B7403E0093E1F9 /* CDDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDetailHeaderView.m; sourceTree = "<group>"; };
+		2F0C62A523B7403E0093E1F9 /* CDDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDetailHeaderView.h; sourceTree = "<group>"; };
+		2F0C62A623B7403E0093E1F9 /* CDDetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDDetailHeaderView.xib; sourceTree = "<group>"; };
+		2F0C62A923B742B50093E1F9 /* NSLayoutConstraint+AutoScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+AutoScale.h"; sourceTree = "<group>"; };
+		2F0C62AA23B742B50093E1F9 /* NSLayoutConstraint+AutoScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+AutoScale.m"; sourceTree = "<group>"; };
 		7C0EAFC7B7E9B19FB72FC0C8 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
 		929279B1344DFDA0EC8C48A3 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F6448849933EFE3C2D4A6647 /* Pods_MyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -253,6 +261,8 @@
 				0CF78B2B23AA129B0077044C /* UIButton+YXBAdd.m */,
 				0CF78B2A23AA129B0077044C /* UIViewController+YXBAdd.h */,
 				0CF78B2D23AA129B0077044C /* UIViewController+YXBAdd.m */,
+				2F0C62A923B742B50093E1F9 /* NSLayoutConstraint+AutoScale.h */,
+				2F0C62AA23B742B50093E1F9 /* NSLayoutConstraint+AutoScale.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -273,6 +283,9 @@
 				0C44D5FE2394AE650075DCAD /* LYLWKWebView.m */,
 				0C44D5FF2394AE660075DCAD /* WCQRCodeVC.h */,
 				0C44D6012394AE660075DCAD /* WCQRCodeVC.m */,
+				2F0C62A523B7403E0093E1F9 /* CDDetailHeaderView.h */,
+				2F0C62A423B7403E0093E1F9 /* CDDetailHeaderView.m */,
+				2F0C62A623B7403E0093E1F9 /* CDDetailHeaderView.xib */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -461,6 +474,7 @@
 			files = (
 				0CD17C0E2376AE1A00B38DC8 /* Assets.xcassets in Resources */,
 				0CD17C102376AF5800B38DC8 /* LaunchScreen.storyboard in Resources */,
+				2F0C62A823B7403F0093E1F9 /* CDDetailHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +530,7 @@
 				0CF78B3223AA18F80077044C /* YXBFormLeftRightBgCell.m in Sources */,
 				0C44D6032394AE660075DCAD /* WCQRCodeVC.m in Sources */,
 				0CD17C132376BA9E00B38DC8 /* SPHomeViewController.m in Sources */,
+				2F0C62A723B7403F0093E1F9 /* CDDetailHeaderView.m in Sources */,
 				0CF78B2F23AA129B0077044C /* UIViewController+YXBAdd.m in Sources */,
 				0CD17C0D23769CB700B38DC8 /* TabBarViewController.m in Sources */,
 				0CF78B2E23AA129B0077044C /* UIButton+YXBAdd.m in Sources */,
@@ -527,6 +542,7 @@
 				0CFBCB8E23812F2700D3921F /* YXBTextField.m in Sources */,
 				0CF78B2723AA11CB0077044C /* YXBFormLeftRightCell.m in Sources */,
 				0CF78B2023AA11650077044C /* YXBImageCell.m in Sources */,
+				2F0C62AB23B742B50093E1F9 /* NSLayoutConstraint+AutoScale.m in Sources */,
 				0C23D611239659490084B326 /* YXBButtonCell.m in Sources */,
 				0CF78B2923AA11CB0077044C /* YXBFormTopBottomCell.m in Sources */,
 				0C44D6062394B06E0075DCAD /* YXBConstDefine.m in Sources */,

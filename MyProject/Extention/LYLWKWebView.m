@@ -15,7 +15,7 @@
 
 @interface LYLWKWebView ()<WKUIDelegate>
 
-@property(nonatomic, strong)UIProgressView *progressView;
+
 @property(nonatomic,assign)CGFloat progress;
 
 @end

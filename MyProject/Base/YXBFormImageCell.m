@@ -37,12 +37,14 @@ NSString *const YXBFormRowDescriptorTypeImageCell = @"YXBFormRowDescriptorTypeIm
 
 - (void)setImageInset:(UIEdgeInsets)imageInset {
     _imageInset = imageInset;
-    [self.imageView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(imageInset.left);
-        make.top.mas_equalTo(imageInset.top);
-        make.bottom.mas_equalTo(-imageInset.bottom);
-        make.right.mas_equalTo(-imageInset.right);
-    }];
+    if (self.imageView.superview) {
+        [self.imageView mas_remakeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(imageInset.left);
+            make.top.mas_equalTo(imageInset.top);
+            make.bottom.mas_equalTo(-imageInset.bottom);
+            make.right.mas_equalTo(-imageInset.right);
+        }];
+    }
 }
 
 - (void)update {

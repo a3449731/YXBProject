@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface YXBConstDefine : NSObject
 
 // 精度
+extern NSInteger const YXBAccuracyZero;
 extern NSInteger const YXBAccuracyTwo;
 extern NSInteger const YXBAccuracyFour;
 extern NSInteger const YXBAccuracyEight;
