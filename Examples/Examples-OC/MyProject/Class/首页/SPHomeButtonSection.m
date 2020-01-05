@@ -70,28 +70,28 @@
 - (NSArray *)creatData {
     return @[
         @{@"name":@"女装服饰",
-          @"picuture":@"bg1"},
+          @"picuture":@"sy_gn_icon"},
         
         @{@"name":@"家具百货",
-          @"picuture":@"bg1"},
+          @"picuture":@"sy_gn_icon2"},
         
         @{@"name":@"美妆护肤",
-          @"picuture":@"bg1"},
+          @"picuture":@"sy_gn_icon3"},
         
         @{@"name":@"母婴用品",
-          @"picuture":@"bg1"},
+          @"picuture":@"sy_gn_icon4"},
         
         @{@"name":@"食品零食",
-          @"picuture":@"bg1"},
+          @"picuture":@"sy_gn_icon5"},
         
         @{@"name":@"数码产品",
-          @"picuture":@"bg1"},
+          @"picuture":@"sy_gn_icon6"},
         
         @{@"name":@"潮流箱包",
-          @"picuture":@"bg1"},
+          @"picuture":@"sy_gn_ico7"},
         
         @{@"name":@"运动健康",
-          @"picuture":@"bg1"},
+          @"picuture":@"sy_gn_icon8"},
         
         ];
 }

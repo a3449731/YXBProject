@@ -35,12 +35,11 @@
 }
 
 - (CGSize)sizeForItemAtIndex:(NSInteger)index {
-    return CGSizeMake(self.collectionContext.containerSize.width - self.inset.left - self.inset.right, 170);
+    return CGSizeMake(self.collectionContext.containerSize.width - self.inset.left - self.inset.right, scaleBase375(110 ) + 85);
 }
 
 - (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {
     id cellClass = [YXBCollectionCell class];
-//    YXBCollectionCell *cell = [self.collectionContext dequeueReusableCellOfClass:cellClass forSectionController:self atIndex:index];
     YXBCollectionCell *cell = [self.collectionContext dequeueReusableCellOfClass:cellClass withReuseIdentifier:NSStringFromClass([self class]) forSectionController:self atIndex:index];
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
@@ -93,9 +92,9 @@
     header.leftButton.spacingBetweenImageAndTitle = 10;
     header.leftButton.titleLabel.font = [UIFont boldSystemFontOfSize:14];
     [header.leftButton setTitleColor:YXBColorWhite forState:(UIControlStateNormal)];
-    [header.leftButton setTitle:@"量贩团" forState:(UIControlStateNormal)];
-    [header.leftButton setImage:[UIImage imageNamed:@"account_highlight"] forState:(UIControlStateNormal)];
-    [header.leftButton setBackgroundImage:[UIImage imageNamed:@"bg1"] forState:(UIControlStateNormal)];
+//    [header.leftButton setTitle:@"量贩团" forState:(UIControlStateNormal)];
+//    [header.leftButton setImage:[UIImage imageNamed:@"account_highlight"] forState:(UIControlStateNormal)];
+    [header.leftButton setBackgroundImage:[UIImage imageNamed:@"sy_groupbuying_title"] forState:(UIControlStateNormal)];
     
     [header.imageView mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(12);
@@ -103,7 +102,7 @@
         make.bottom.mas_equalTo(0);
         make.height.mas_equalTo(scaleBase375(120));
     }];
-    header.imageView.image = [UIImage imageNamed:@"bg1"];
+    header.imageView.image = [UIImage imageNamed:@"sy_groupbuying_banner"];
     
     return header;
 }

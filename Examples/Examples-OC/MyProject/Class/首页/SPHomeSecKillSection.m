@@ -7,9 +7,11 @@
 //
 
 #import "SPHomeSecKillSection.h"
+#import <UIColor+QMUI.h>
 #import "YXBHeaderView.h"
 #import "SPHomeSeckillCollectionCell.h"
 #import "SPHomeSeckillTimeCell.h"
+#import "SPHomeProductCell.h"
 
 @interface SPHomeSecKillSection () <IGListSupplementaryViewSource,YXBHeaderDelegate,IGListAdapterDataSource,IGListSingleSectionControllerDelegate>
 
@@ -17,6 +19,8 @@
 @property (nonatomic, strong) HMSegmentedControl *segmentedControl;
 
 @end
+
+static NSInteger SeckillProductCellHeght = 128;
 
 @implementation SPHomeSecKillSection
 
@@ -40,13 +44,13 @@
         return CGSizeMake(kItemWidthCount(1), 45);
     } else {
         if (self.segmentedControl.selectedSegmentIndex == 0) {
-            return CGSizeMake(kItemWidthCount(1), 100 * 3);
+            return CGSizeMake(kItemWidthCount(1), SeckillProductCellHeght * 3);
         }
         if (self.segmentedControl.selectedSegmentIndex == 1) {
-            return CGSizeMake(kItemWidthCount(1), 100 * 4);
+            return CGSizeMake(kItemWidthCount(1), SeckillProductCellHeght * 4);
         }
         if (self.segmentedControl.selectedSegmentIndex == 2) {
-            return CGSizeMake(kItemWidthCount(1), 100 * 2);
+            return CGSizeMake(kItemWidthCount(1), SeckillProductCellHeght * 2);
         }
         return CGSizeMake(kItemWidthCount(1), 0);
     }
@@ -64,6 +68,7 @@
         id cellClass = [SPHomeSeckillCollectionCell class];
         SPHomeSeckillCollectionCell *cell = [self.collectionContext dequeueReusableCellOfClass:cellClass withReuseIdentifier:NSStringFromClass([self class]) forSectionController:self atIndex:index];
         cell.collectionView.bounces = NO;
+        InvalidateScrollViewAdjustBehavior(self.viewController, cell.collectionView);
         self.adapter.collectionView = cell.collectionView;
         [self.adapter reloadDataWithCompletion:nil];
         return cell;
@@ -114,9 +119,9 @@
     header.leftButton.spacingBetweenImageAndTitle = 10;
     header.leftButton.titleLabel.font = [UIFont boldSystemFontOfSize:14];
     [header.leftButton setTitleColor:YXBColorWhite forState:(UIControlStateNormal)];
-    [header.leftButton setTitle:@"限时秒杀" forState:(UIControlStateNormal)];
-    [header.leftButton setImage:[UIImage imageNamed:@"account_highlight"] forState:(UIControlStateNormal)];
-    [header.leftButton setBackgroundImage:[UIImage imageNamed:@"bg1"] forState:(UIControlStateNormal)];
+//    [header.leftButton setTitle:@"限时秒杀" forState:(UIControlStateNormal)];
+//    [header.leftButton setImage:[UIImage imageNamed:@"account_highlight"] forState:(UIControlStateNormal)];
+    [header.leftButton setBackgroundImage:[UIImage imageNamed:@"sy_seckill_title"] forState:(UIControlStateNormal)];
     
     return header;
 }
@@ -170,16 +175,29 @@
 }
 
 - (IGListSectionController *)listAdapter:(IGListAdapter *)listAdapter sectionControllerForObject:(id)object {
-    id cellClass = [UICollectionViewCell class];
-    IGListSingleSectionController *sc = [[IGListSingleSectionController alloc] initWithCellClass:cellClass configureBlock:^(id  _Nonnull item, __kindof UICollectionViewCell * _Nonnull cell) {
-        cell.backgroundColor = YXBColorRed;
+    id cellClass = [SPHomeProductCell class];
+    IGListSingleSectionController *sc = [[IGListSingleSectionController alloc] initWithCellClass:cellClass configureBlock:^(id  _Nonnull item, __kindof SPHomeProductCell * _Nonnull cell) {
+        [cell layoutWithHomeSecikill];
+        [self cell:cell forModel:item];
         
     } sizeBlock:^CGSize(id  _Nonnull item, id<IGListCollectionContext>  _Nullable collectionContext) {
-        return CGSizeMake(collectionContext.containerSize.width, 100);
+        return CGSizeMake(collectionContext.containerSize.width, SeckillProductCellHeght);
     }];
-    sc.inset = UIEdgeInsetsMake(0, 0, 1, 0);
+    sc.inset = UIEdgeInsetsMake(0, 0, 0, 0);
     sc.selectionDelegate = self;
     return sc;
+}
+
+- (void)cell:(SPHomeProductCell *)cell forModel:(id)model {
+    cell.productImageView.image = [UIImage imageNamed:@"sy_hot_goods"];
+    cell.nameLabel.text = @"TOM FORD汤姆福特细黑管柔雾 缎采唇膏 tf口红13 丝绒";
+    cell.priceLabel.text = @"￥289";
+    [cell.tipButton setImage:[UIImage imageNamed:@"sy_seckill_label"] forState:(UIControlStateNormal)];
+    cell.percentLabel.text = @"已抢69%";
+    cell.percentProgress.progress = 0.69;
+    cell.randomImageView.image = [UIImage imageNamed:@"sy_seckill_lable_middle"];
+    cell.savePriceLabel.text = @"省38元";
+    cell.robLabel.text = @"抢";
 }
 
 - (nullable UIView *)emptyViewForListAdapter:(IGListAdapter *)listAdapter {

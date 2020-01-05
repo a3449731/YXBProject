@@ -9,6 +9,7 @@
 #import "SPHomeViewController.h"
 #import <IGListKit/IGListKit.h>
 #import <MJRefresh/MJRefresh.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
 #import "SPBannerSectionController.h"
 #import "SPHomeButtonSection.h"
 #import "SPHomeNotificSection.h"
@@ -76,7 +77,7 @@ AC_SETUP_NAVIGATION_ITEM(@"联云宝");
     }];
     
     UIButton *button = [UIButton buttonWithType:(UIButtonTypeCustom)];
-    [button setImage:[UIImage imageNamed:@"bg1"] forState:(UIControlStateNormal)];
+    [button setImage:[UIImage imageNamed:@"sy_Scancode"] forState:(UIControlStateNormal)];
     [view addSubview:button];
     [button mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.mas_equalTo(0);
@@ -85,18 +86,16 @@ AC_SETUP_NAVIGATION_ITEM(@"联云宝");
     }];
     [button addTarget:self action:@selector(leftAction:) forControlEvents:(UIControlEventTouchUpInside)];
     
-    UILabel *titleLabel = [[UILabel alloc] init];
-    titleLabel.font = [UIFont boldSystemFontOfSize:18];
-    titleLabel.textColor = YXBColorWhite;
-    titleLabel.text = @"联云宝";
-    [view addSubview:titleLabel];
-    [titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+    UIButton *titleButton = [UIButton buttonWithType:(UIButtonTypeCustom)];
+    [titleButton setImage:[UIImage imageNamed:@"sy_top_name"] forState:(UIControlStateNormal)];
+    [view addSubview:titleButton];
+    [titleButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(0);
         make.centerY.mas_equalTo(0);
     }];
     
     UIButton *rightButton = [UIButton buttonWithType:(UIButtonTypeCustom)];
-    [rightButton setImage:[UIImage imageNamed:@"bg1"] forState:(UIControlStateNormal)];
+    [rightButton setImage:[UIImage imageNamed:@"sy_news"] forState:(UIControlStateNormal)];
     [view addSubview:rightButton];
     [rightButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.mas_equalTo(0);

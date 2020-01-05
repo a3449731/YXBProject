@@ -64,7 +64,7 @@
 
 - (CGSize)sizeForSupplementaryViewOfKind:(NSString *)elementKind
                                  atIndex:(NSInteger)index {
-    return CGSizeMake(self.collectionContext.containerSize.width, 50);
+    return CGSizeMake(self.collectionContext.containerSize.width, 40);
 }
 
 @end

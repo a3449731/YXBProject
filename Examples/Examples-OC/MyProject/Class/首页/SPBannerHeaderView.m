@@ -9,6 +9,7 @@
 #import "SPBannerHeaderView.h"
 #import <PYSearch/PYSearch.h>
 #import <UIView+QMUI.h>
+#import "YXBNavigationController.h"
 
 @interface SPBannerHeaderView () <PYSearchViewControllerDelegate>
 
@@ -28,7 +29,7 @@
 
 - (void)creatUI {
     self.searchButton = [UIButton buttonWithType:(UIButtonTypeCustom)];
-    [self.searchButton setBackgroundImage:[UIImage imageNamed:@"bg1"] forState:(UIControlStateNormal)];
+    [self.searchButton setBackgroundImage:[UIImage imageNamed:@"sy_search_bg"] forState:(UIControlStateNormal)];
     [self addSubview:self.searchButton];
     [self.searchButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(12);
@@ -49,8 +50,8 @@
         //            [searchViewController.navigationController pushViewController:[[PYTempViewController alloc] init] animated:YES];
     }];
     
-    searchViewController.cancelBarButtonItem.title = @"";
-    [searchViewController.cancelButton setTitle:@"" forState:(UIControlStateNormal)];
+    //    searchViewController.cancelBarButtonItem.title = @"";
+    //    [searchViewController.cancelButton setTitle:@"" forState:(UIControlStateNormal)];
     
     // 3. Set style for popular search and search history
     searchViewController.searchHistoryStyle = PYHotSearchStyleDefault;
@@ -62,14 +63,9 @@
     
     // 5. Present(Modal) or push search view controller
     // Present(Modal)
-    //    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:searchViewController];
-    //    [self presentViewController:nav animated:YES completion:nil];
-    
-    // Push
-    // Set mode of show search view controller, default is `PYSearchViewControllerShowModeModal`
-    searchViewController.searchViewControllerShowMode = PYSearchViewControllerShowModeModal;
-    //    // Push search view controller
-    [self.qmui_viewController.navigationController pushViewController:searchViewController animated:YES];
+    YXBNavigationController *nav = [[YXBNavigationController alloc] initWithRootViewController:searchViewController];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self.qmui_viewController presentViewController:nav animated:YES completion:nil];
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {

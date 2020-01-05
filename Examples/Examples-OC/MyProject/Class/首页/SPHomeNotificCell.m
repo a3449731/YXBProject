@@ -29,11 +29,12 @@
 - (void)creatUI {
     
     UIImageView *imageView = [[UIImageView alloc] init];
-    imageView.image = [UIImage imageNamed:@"account_highlight"];
+    imageView.image = [UIImage imageNamed:@"sy_theheadlines"];
     [self.contentView addSubview:imageView];
     [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(12);
-        make.width.height.mas_equalTo(18);
+        make.width.mas_equalTo(40);
+        make.height.mas_equalTo(20);
         make.centerY.mas_equalTo(0);
     }];
     

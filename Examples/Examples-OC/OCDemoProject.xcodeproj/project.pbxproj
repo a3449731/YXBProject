@@ -92,6 +92,7 @@
 		2FDAC6D723C18221001003D5 /* YXBFormImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6D223C18221001003D5 /* YXBFormImageCell.m */; };
 		2FDAC6D823C18221001003D5 /* YXBFormLeftRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6D323C18221001003D5 /* YXBFormLeftRightCell.m */; };
 		2FDAC6DB23C18269001003D5 /* YXBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6DA23C18269001003D5 /* YXBNavigationController.m */; };
+		2FEC478323C1E1CE005AC1FE /* SPHomeProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC478223C1E1CE005AC1FE /* SPHomeProductCell.m */; };
 		4022FDCE4F7B5D1A5E82BAA7 /* Pods_OCDemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F625E780A70100A9657E7E /* Pods_OCDemoProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -268,6 +269,8 @@
 		2FDAC6D423C18221001003D5 /* YXBFormLeftRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFormLeftRightCell.h; sourceTree = "<group>"; };
 		2FDAC6D923C18269001003D5 /* YXBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBNavigationController.h; sourceTree = "<group>"; };
 		2FDAC6DA23C18269001003D5 /* YXBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBNavigationController.m; sourceTree = "<group>"; };
+		2FEC478223C1E1CE005AC1FE /* SPHomeProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeProductCell.m; sourceTree = "<group>"; };
+		2FEC478423C1E1F8005AC1FE /* SPHomeProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPHomeProductCell.h; sourceTree = "<group>"; };
 		31756E4037A34D7EB210BA53 /* Pods-OCDemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemoProject.release.xcconfig"; path = "Target Support Files/Pods-OCDemoProject/Pods-OCDemoProject.release.xcconfig"; sourceTree = "<group>"; };
 		555C36827C03D8CD8014566C /* Pods-OCDemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemoProject.debug.xcconfig"; path = "Target Support Files/Pods-OCDemoProject/Pods-OCDemoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7C0EAFC7B7E9B19FB72FC0C8 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -510,6 +513,8 @@
 				2FDAC69D23C1803F001003D5 /* SPHomeTeamTwoSection.m */,
 				2FDAC69B23C1803F001003D5 /* SPRecomendSection.h */,
 				2FDAC6AA23C18040001003D5 /* SPRecomendSection.m */,
+				2FEC478423C1E1F8005AC1FE /* SPHomeProductCell.h */,
+				2FEC478223C1E1CE005AC1FE /* SPHomeProductCell.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -835,6 +840,7 @@
 				0C23D5C2239652D00084B326 /* CMHomeViewController.m in Sources */,
 				2FDAC6AC23C18041001003D5 /* SPHomeNotificSection.m in Sources */,
 				0C23D5D0239652D00084B326 /* CMRecommendSection4.m in Sources */,
+				2FEC478323C1E1CE005AC1FE /* SPHomeProductCell.m in Sources */,
 				0C23D5E22396558E0084B326 /* SPSearchResultCell.m in Sources */,
 				0C23D5C8239652D00084B326 /* CMVideoViewController.m in Sources */,
 				0C23D60B239658E40084B326 /* CMCommentModel.m in Sources */,

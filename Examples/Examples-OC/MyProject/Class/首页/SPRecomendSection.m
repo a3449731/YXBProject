@@ -8,6 +8,7 @@
 
 #import "SPRecomendSection.h"
 #import "YXBHeaderView.h"
+#import "SPHomeProductCell.h"
 
 @interface SPRecomendSection () <IGListSupplementaryViewSource>
 
@@ -31,14 +32,28 @@
 }
 
 - (CGSize)sizeForItemAtIndex:(NSInteger)index {
-    return CGSizeMake(kItemWidthCount(2), scaleBase375(170) + 110);
+    return CGSizeMake(kItemWidthCount(2), scaleBase375(kItemWidthCount(2)) + 110);
 }
 
 - (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {
-    id cellClass = [UICollectionViewCell class];
-    UICollectionViewCell *cell = [self.collectionContext dequeueReusableCellOfClass:cellClass forSectionController:self atIndex:index];
+    id cellClass = [SPHomeProductCell class];
+    
+    SPHomeProductCell *cell = [self.collectionContext dequeueReusableCellOfClass:cellClass withReuseIdentifier:NSStringFromClass([self class]) forSectionController:self atIndex:index];
     cell.backgroundColor = YXBColorBG_white;
+    cell.layer.cornerRadius = 5;
+    [cell layoutWithHomeRecomend];
+    [self cell:cell forModel:@""];
     return cell;
+}
+
+- (void)cell:(SPHomeProductCell *)cell forModel:(id)model {
+    cell.productImageView.image = [UIImage imageNamed:@"sy_hot_goods2"];
+    cell.nameLabel.text = @"2019秋冬新款纯羊绒衫女 半高领加厚毛衣宽松纯...";
+    cell.priceLabel.text = @"￥59.9";
+    cell.otherPriceLabel.text = @"￥19.9";
+    [cell.tipButton setImage:[UIImage imageNamed:@"sy_hot_Label"] forState:(UIControlStateNormal)];
+    cell.saleLabel.text = @"已售100件";
+    cell.adressLabel.text = @"广州";
 }
 
 - (void)didUpdateToObject:(id)object {
@@ -58,6 +73,7 @@
                                                                  atIndex:(NSInteger)index {
     id headerClass = [YXBHeaderView class];
     YXBHeaderView *header = [self.collectionContext dequeueReusableSupplementaryViewOfKind:elementKind forSectionController:self class:headerClass atIndex:index];
+    header.backgroundColor = [UIColor clearColor];
     header.imageView.hidden = NO;
     header.leftButton.hidden = YES;
     header.rightButton.hidden = YES;
@@ -67,7 +83,7 @@
     }];
     header.imageView.contentMode = UIViewContentModeCenter;
     header.imageView.clipsToBounds = YES;
-    header.imageView.image = [UIImage imageNamed:@"bg1"];
+    header.imageView.image = [UIImage imageNamed:@"sy_hot_title"];
     return header;
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import "SPHomeTeamTwoSection.h"
+#import "SPHomeProductCell.h"
 
 @implementation SPHomeTeamTwoSection
 
@@ -25,14 +26,21 @@
 }
 
 - (CGSize)sizeForItemAtIndex:(NSInteger)index {
-    return CGSizeMake(kItemWidthCount(3), 150);
+    return CGSizeMake(kItemWidthCount(3), scaleBase375(kItemWidthCount(3)) + 60);
 }
 
 - (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {
-    id cellClass = [UICollectionViewCell class];
-    UICollectionViewCell *cell = [self.collectionContext dequeueReusableCellOfClass:cellClass forSectionController:self atIndex:index];
-    cell.backgroundColor = YXBColorRed;
+    id cellClass = [SPHomeProductCell class];
+    SPHomeProductCell *cell = [self.collectionContext dequeueReusableCellOfClass:cellClass withReuseIdentifier:NSStringFromClass([self class]) forSectionController:self atIndex:index];
+    [cell layoutWithHomeTeamBuy];
+    [self cell:cell forModel:@""];
     return cell;
+}
+
+- (void)cell:(SPHomeProductCell *)cell forModel:(id)model {
+    cell.productImageView.image = [UIImage imageNamed:@"sy_groupbuying_goods"];
+    cell.nameLabel.text = @"TOM FORD汤姆福特细黑管柔雾 缎采唇膏 tf口红13 丝绒";
+    cell.priceLabel.text = @"289";
 }
 
 - (void)didUpdateToObject:(id)object {

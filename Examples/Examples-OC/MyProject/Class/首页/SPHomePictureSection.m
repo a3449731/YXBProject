@@ -10,8 +10,6 @@
 #import "YXBImageCell.h"
 #import <QMUIKit/QMUIAlertController.h>
 
-static NSInteger targetCount = 10;
-
 @interface SPHomePictureSection ()
 
 @property (nonatomic, strong) NSArray *modelArray;
@@ -31,16 +29,16 @@ static NSInteger targetCount = 10;
 }
 
 - (NSInteger)numberOfItems {
-    return targetCount;
+    return self.modelArray.count;
 }
 
 - (CGSize)sizeForItemAtIndex:(NSInteger)index {
     if (index == 0) {
-        return CGSizeMake(kItemWidthCount(1), 130);
-    } else if (index == targetCount - 1) {
-        return CGSizeMake(kItemWidthCount(1), 115);
+        return CGSizeMake(kItemWidthCount(1), scaleBase375(130));
+    } else if (index == self.modelArray.count - 1) {
+        return CGSizeMake(kItemWidthCount(1), scaleBase375(124));
     } else {
-        return CGSizeMake(kItemWidthCount(2), 115);
+        return CGSizeMake(kItemWidthCount(2), scaleBase375(101));
     }
 }
 
@@ -55,7 +53,7 @@ static NSInteger targetCount = 10;
         [cell.imageView mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.edges.mas_equalTo(0);
         }];
-    } else if (index == targetCount - 1) {
+    } else if (index == self.modelArray.count - 1) {
         cell.backgroundColor = YXBColorRed_Bold;
         [cell.imageView mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(12);
@@ -68,12 +66,24 @@ static NSInteger targetCount = 10;
         cell.layer.shadowOpacity = 1;
         cell.layer.shadowColor = YXBColorRed_Bold.CGColor;
         cell.layer.shadowOffset = CGSizeMake(30, 0);
-        [cell.imageView mas_remakeConstraints:^(MASConstraintMaker *make) {
-            make.left.mas_equalTo(12);
-            make.right.mas_equalTo(-5);
-            make.bottom.mas_equalTo(-0);
-            make.top.mas_equalTo(10);
-        }];
+        
+        if (index%2 == 1) {
+            // 第二排左边
+            [cell.imageView mas_remakeConstraints:^(MASConstraintMaker *make) {
+                make.left.mas_equalTo(12);
+                make.right.mas_equalTo(-5);
+                make.bottom.mas_equalTo(-0);
+                make.top.mas_equalTo(10);
+            }];
+        } else {
+            // 第二排右边
+            [cell.imageView mas_remakeConstraints:^(MASConstraintMaker *make) {
+                make.left.mas_equalTo(5);
+                make.right.mas_equalTo(-12);
+                make.bottom.mas_equalTo(-0);
+                make.top.mas_equalTo(10);
+            }];
+        }
     }
 
     cell.imageView.image = [UIImage imageNamed:self.modelArray[index]];
@@ -81,7 +91,7 @@ static NSInteger targetCount = 10;
 }
 
 - (void)didUpdateToObject:(id)object {
-   self.modelArray = @[@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1",@"bg1"];
+   self.modelArray = @[@"sy_Activeentrance",@"sy_Active1",@"sy_Active2",@"sy_Active1",@"sy_Active2",@"sy_Active3"];
 }
 
 - (void)didSelectItemAtIndex:(NSInteger)index {

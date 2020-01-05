@@ -32,6 +32,8 @@
 // 灰色字体
 #define YXBColorGray UIColorFromHex(#A5A7BA)
 
+#define YXBColorGray_CCC UIColorFromHex(#CCCCCC)
+
 // 灰色字体
 #define YXBColorGray_999 UIColorFromHex(#999999)
 
@@ -41,8 +43,11 @@
 // 蓝色字体
 #define YXBColorBlue UIColorFromHex(#418efb)
 
-// 红色字体
+// 浅红色字体
 #define YXBColorRed UIColorFromHex(#F44749)
+
+// 中等红
+#define YXBColorRed_Medium UIColorFromHex(#E23433)
 
 // 深红色
 #define YXBColorRed_Bold UIColorFromHex(#B32026)

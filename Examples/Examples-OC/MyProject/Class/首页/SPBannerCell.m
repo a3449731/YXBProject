@@ -63,7 +63,7 @@
 
 #pragma mark ------------ 标签 --------------
 - (void)creatSegment {
-    self.segmentControl = [[HMSegmentedControl alloc] initWithSectionTitles:@[@"女装服饰",@"家居百货",@"美妆护肤", @"母婴用品"]];
+    self.segmentControl = [[HMSegmentedControl alloc] initWithSectionTitles:@[@"女装服饰",@"家居百货",@"美妆护肤", @"母婴用品",@"食品零食",@"数码产品",@"潮流箱包",@"运动健康"]];
     self.segmentControl.backgroundColor = [UIColor clearColor];
     // 未选中的字体,颜色
     NSDictionary *normalDic =  @{NSForegroundColorAttributeName : YXBColorWhite,
@@ -106,7 +106,7 @@
     if (_bannerView == nil) {
 
         _bannerView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectZero delegate:self placeholderImage:nil];
-
+        _bannerView.backgroundColor = [UIColor clearColor];
         _bannerView.pageDotColor = [UIColor grayColor];
         _bannerView.autoScrollTimeInterval = 2;
         _bannerView.currentPageDotColor = [UIColor whiteColor];
@@ -149,7 +149,7 @@
 - (void)cellForModel:(id)model {
     self.modelArray = model;
 //    NSArray *imageArray = [NSArray getPropertyArrayWithString:@"bannerImg" inTheArray:self.modelArray];
-    NSArray *imageArray = @[@"bg1",@"bg1",@"bg1"];
+    NSArray *imageArray = @[@"sy_banner",@"sy_banner",@"sy_banner"];
     [self.bannerView setLocalizationImageNamesGroup:imageArray];
 //    _bannerView.frame = CGRectMake(0, 0, self.size.width, self.height);
 }
