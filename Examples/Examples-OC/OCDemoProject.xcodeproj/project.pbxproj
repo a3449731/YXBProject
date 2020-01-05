@@ -67,6 +67,31 @@
 		0CFBCB8E23812F2700D3921F /* YXBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8823812F2700D3921F /* YXBTextField.m */; };
 		0CFBCB9023812F2700D3921F /* YXBTapAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8A23812F2700D3921F /* YXBTapAreaButton.m */; };
 		0CFBCB9323812FAE00D3921F /* NSObject+YXBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB9223812FAE00D3921F /* NSObject+YXBAdd.m */; };
+		2FDAC6AC23C18041001003D5 /* SPHomeNotificSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */; };
+		2FDAC6AD23C18041001003D5 /* SPHomeButtonSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */; };
+		2FDAC6AE23C18041001003D5 /* SPBannerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69523C1803F001003D5 /* SPBannerHeaderView.m */; };
+		2FDAC6AF23C18041001003D5 /* SPHomeNotificCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69A23C1803F001003D5 /* SPHomeNotificCell.m */; };
+		2FDAC6B023C18041001003D5 /* SPHomeSeckillTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69C23C1803F001003D5 /* SPHomeSeckillTimeCell.m */; };
+		2FDAC6B123C18041001003D5 /* SPHomeTeamTwoSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69D23C1803F001003D5 /* SPHomeTeamTwoSection.m */; };
+		2FDAC6B223C18041001003D5 /* SPHomePictureSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69E23C18040001003D5 /* SPHomePictureSection.m */; };
+		2FDAC6B323C18041001003D5 /* SPBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6A023C18040001003D5 /* SPBannerCell.m */; };
+		2FDAC6B423C18041001003D5 /* SPBannerSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6A223C18040001003D5 /* SPBannerSectionController.m */; };
+		2FDAC6B523C18041001003D5 /* SPHomeTeamSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6A523C18040001003D5 /* SPHomeTeamSection.m */; };
+		2FDAC6B623C18041001003D5 /* SPHomeSecKillSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6A623C18040001003D5 /* SPHomeSecKillSection.m */; };
+		2FDAC6B723C18041001003D5 /* SPRecomendSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6AA23C18040001003D5 /* SPRecomendSection.m */; };
+		2FDAC6B823C18041001003D5 /* SPHomeSeckillCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6AB23C18041001003D5 /* SPHomeSeckillCollectionCell.m */; };
+		2FDAC6BC23C1815D001003D5 /* CDDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6BA23C1815D001003D5 /* CDDetailHeaderView.m */; };
+		2FDAC6BD23C1815D001003D5 /* CDDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FDAC6BB23C1815D001003D5 /* CDDetailHeaderView.xib */; };
+		2FDAC6C623C181A8001003D5 /* UIViewController+YXBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6BF23C181A8001003D5 /* UIViewController+YXBAdd.m */; };
+		2FDAC6C723C181A8001003D5 /* UIButton+YXBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6C023C181A8001003D5 /* UIButton+YXBAdd.m */; };
+		2FDAC6C823C181A8001003D5 /* NSLayoutConstraint+AutoScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6C223C181A8001003D5 /* NSLayoutConstraint+AutoScale.m */; };
+		2FDAC6C923C181A8001003D5 /* UIView+Xib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6C323C181A8001003D5 /* UIView+Xib.m */; };
+		2FDAC6CC23C18200001003D5 /* YXBImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6CA23C18200001003D5 /* YXBImageCell.m */; };
+		2FDAC6D523C18221001003D5 /* YXBFormLeftRightBgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6CD23C18221001003D5 /* YXBFormLeftRightBgCell.m */; };
+		2FDAC6D623C18221001003D5 /* YXBFormTopBottomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6D123C18221001003D5 /* YXBFormTopBottomCell.m */; };
+		2FDAC6D723C18221001003D5 /* YXBFormImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6D223C18221001003D5 /* YXBFormImageCell.m */; };
+		2FDAC6D823C18221001003D5 /* YXBFormLeftRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6D323C18221001003D5 /* YXBFormLeftRightCell.m */; };
+		2FDAC6DB23C18269001003D5 /* YXBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC6DA23C18269001003D5 /* YXBNavigationController.m */; };
 		4022FDCE4F7B5D1A5E82BAA7 /* Pods_OCDemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F625E780A70100A9657E7E /* Pods_OCDemoProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -194,6 +219,55 @@
 		0CFBCB9123812FAE00D3921F /* NSObject+YXBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YXBAdd.h"; sourceTree = "<group>"; };
 		0CFBCB9223812FAE00D3921F /* NSObject+YXBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YXBAdd.m"; sourceTree = "<group>"; };
 		27F625E780A70100A9657E7E /* Pods_OCDemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCDemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeNotificSection.m; sourceTree = "<group>"; };
+		2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeButtonSection.m; sourceTree = "<group>"; };
+		2FDAC69423C1803F001003D5 /* SPHomeSeckillCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeSeckillCollectionCell.h; sourceTree = "<group>"; };
+		2FDAC69523C1803F001003D5 /* SPBannerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBannerHeaderView.m; sourceTree = "<group>"; };
+		2FDAC69623C1803F001003D5 /* SPBannerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBannerHeaderView.h; sourceTree = "<group>"; };
+		2FDAC69723C1803F001003D5 /* SPHomeNotificSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeNotificSection.h; sourceTree = "<group>"; };
+		2FDAC69823C1803F001003D5 /* SPHomeTeamSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeTeamSection.h; sourceTree = "<group>"; };
+		2FDAC69923C1803F001003D5 /* SPHomeButtonSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeButtonSection.h; sourceTree = "<group>"; };
+		2FDAC69A23C1803F001003D5 /* SPHomeNotificCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeNotificCell.m; sourceTree = "<group>"; };
+		2FDAC69B23C1803F001003D5 /* SPRecomendSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRecomendSection.h; sourceTree = "<group>"; };
+		2FDAC69C23C1803F001003D5 /* SPHomeSeckillTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeSeckillTimeCell.m; sourceTree = "<group>"; };
+		2FDAC69D23C1803F001003D5 /* SPHomeTeamTwoSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeTeamTwoSection.m; sourceTree = "<group>"; };
+		2FDAC69E23C18040001003D5 /* SPHomePictureSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomePictureSection.m; sourceTree = "<group>"; };
+		2FDAC69F23C18040001003D5 /* SPHomePictureSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomePictureSection.h; sourceTree = "<group>"; };
+		2FDAC6A023C18040001003D5 /* SPBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBannerCell.m; sourceTree = "<group>"; };
+		2FDAC6A123C18040001003D5 /* SPHomeTeamTwoSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeTeamTwoSection.h; sourceTree = "<group>"; };
+		2FDAC6A223C18040001003D5 /* SPBannerSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBannerSectionController.m; sourceTree = "<group>"; };
+		2FDAC6A323C18040001003D5 /* SPBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBannerCell.h; sourceTree = "<group>"; };
+		2FDAC6A423C18040001003D5 /* SPBannerSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBannerSectionController.h; sourceTree = "<group>"; };
+		2FDAC6A523C18040001003D5 /* SPHomeTeamSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeTeamSection.m; sourceTree = "<group>"; };
+		2FDAC6A623C18040001003D5 /* SPHomeSecKillSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeSecKillSection.m; sourceTree = "<group>"; };
+		2FDAC6A723C18040001003D5 /* SPHomeSecKillSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeSecKillSection.h; sourceTree = "<group>"; };
+		2FDAC6A823C18040001003D5 /* SPHomeSeckillTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeSeckillTimeCell.h; sourceTree = "<group>"; };
+		2FDAC6A923C18040001003D5 /* SPHomeNotificCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeNotificCell.h; sourceTree = "<group>"; };
+		2FDAC6AA23C18040001003D5 /* SPRecomendSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRecomendSection.m; sourceTree = "<group>"; };
+		2FDAC6AB23C18041001003D5 /* SPHomeSeckillCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeSeckillCollectionCell.m; sourceTree = "<group>"; };
+		2FDAC6B923C1815D001003D5 /* CDDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDetailHeaderView.h; sourceTree = "<group>"; };
+		2FDAC6BA23C1815D001003D5 /* CDDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDetailHeaderView.m; sourceTree = "<group>"; };
+		2FDAC6BB23C1815D001003D5 /* CDDetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDDetailHeaderView.xib; sourceTree = "<group>"; };
+		2FDAC6BE23C181A7001003D5 /* UIViewController+YXBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YXBAdd.h"; sourceTree = "<group>"; };
+		2FDAC6BF23C181A8001003D5 /* UIViewController+YXBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YXBAdd.m"; sourceTree = "<group>"; };
+		2FDAC6C023C181A8001003D5 /* UIButton+YXBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YXBAdd.m"; sourceTree = "<group>"; };
+		2FDAC6C123C181A8001003D5 /* UIView+Xib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Xib.h"; sourceTree = "<group>"; };
+		2FDAC6C223C181A8001003D5 /* NSLayoutConstraint+AutoScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+AutoScale.m"; sourceTree = "<group>"; };
+		2FDAC6C323C181A8001003D5 /* UIView+Xib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Xib.m"; sourceTree = "<group>"; };
+		2FDAC6C423C181A8001003D5 /* NSLayoutConstraint+AutoScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+AutoScale.h"; sourceTree = "<group>"; };
+		2FDAC6C523C181A8001003D5 /* UIButton+YXBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YXBAdd.h"; sourceTree = "<group>"; };
+		2FDAC6CA23C18200001003D5 /* YXBImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBImageCell.m; sourceTree = "<group>"; };
+		2FDAC6CB23C18200001003D5 /* YXBImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBImageCell.h; sourceTree = "<group>"; };
+		2FDAC6CD23C18221001003D5 /* YXBFormLeftRightBgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBFormLeftRightBgCell.m; sourceTree = "<group>"; };
+		2FDAC6CE23C18221001003D5 /* YXBFormLeftRightBgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFormLeftRightBgCell.h; sourceTree = "<group>"; };
+		2FDAC6CF23C18221001003D5 /* YXBFormImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFormImageCell.h; sourceTree = "<group>"; };
+		2FDAC6D023C18221001003D5 /* YXBFormTopBottomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFormTopBottomCell.h; sourceTree = "<group>"; };
+		2FDAC6D123C18221001003D5 /* YXBFormTopBottomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBFormTopBottomCell.m; sourceTree = "<group>"; };
+		2FDAC6D223C18221001003D5 /* YXBFormImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBFormImageCell.m; sourceTree = "<group>"; };
+		2FDAC6D323C18221001003D5 /* YXBFormLeftRightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBFormLeftRightCell.m; sourceTree = "<group>"; };
+		2FDAC6D423C18221001003D5 /* YXBFormLeftRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFormLeftRightCell.h; sourceTree = "<group>"; };
+		2FDAC6D923C18269001003D5 /* YXBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBNavigationController.h; sourceTree = "<group>"; };
+		2FDAC6DA23C18269001003D5 /* YXBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBNavigationController.m; sourceTree = "<group>"; };
 		31756E4037A34D7EB210BA53 /* Pods-OCDemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemoProject.release.xcconfig"; path = "Target Support Files/Pods-OCDemoProject/Pods-OCDemoProject.release.xcconfig"; sourceTree = "<group>"; };
 		555C36827C03D8CD8014566C /* Pods-OCDemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemoProject.debug.xcconfig"; path = "Target Support Files/Pods-OCDemoProject/Pods-OCDemoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7C0EAFC7B7E9B19FB72FC0C8 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -255,6 +329,8 @@
 				0C5523A6237995B200F1C8FE /* MyProject.pch */,
 				0C0A1E15237693B7004F886B /* main.m */,
 				0C0A1E16237693B7004F886B /* Info.plist */,
+				2FDAC6D923C18269001003D5 /* YXBNavigationController.h */,
+				2FDAC6DA23C18269001003D5 /* YXBNavigationController.m */,
 				0CD17C0B23769CB700B38DC8 /* TabBarViewController.h */,
 				0CD17C0C23769CB700B38DC8 /* TabBarViewController.m */,
 				0CD17C0F2376AF5800B38DC8 /* LaunchScreen.storyboard */,
@@ -279,10 +355,20 @@
 				0C0BE840237ECC1C0025D0F9 /* YXBCell.m */,
 				0C23D5F2239657C20084B326 /* YXBButtonCell.h */,
 				0C23D5F3239657C20084B326 /* YXBButtonCell.m */,
+				2FDAC6CB23C18200001003D5 /* YXBImageCell.h */,
+				2FDAC6CA23C18200001003D5 /* YXBImageCell.m */,
 				0C0BE843237ECC720025D0F9 /* YXBCollectionCell.h */,
 				0C0BE842237ECC720025D0F9 /* YXBCollectionCell.m */,
 				0C0BE845237ECC890025D0F9 /* YXBHeaderView.h */,
 				0C0BE846237ECC890025D0F9 /* YXBHeaderView.m */,
+				2FDAC6CF23C18221001003D5 /* YXBFormImageCell.h */,
+				2FDAC6D223C18221001003D5 /* YXBFormImageCell.m */,
+				2FDAC6CE23C18221001003D5 /* YXBFormLeftRightBgCell.h */,
+				2FDAC6CD23C18221001003D5 /* YXBFormLeftRightBgCell.m */,
+				2FDAC6D423C18221001003D5 /* YXBFormLeftRightCell.h */,
+				2FDAC6D323C18221001003D5 /* YXBFormLeftRightCell.m */,
+				2FDAC6D023C18221001003D5 /* YXBFormTopBottomCell.h */,
+				2FDAC6D123C18221001003D5 /* YXBFormTopBottomCell.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -298,6 +384,14 @@
 				0CAD6DE12387B7E400306602 /* NSArray+YXBAdd.m */,
 				0CAD6DE32387B7E400306602 /* UIImage+YXBAdd.h */,
 				0CAD6DE22387B7E400306602 /* UIImage+YXBAdd.m */,
+				2FDAC6C123C181A8001003D5 /* UIView+Xib.h */,
+				2FDAC6C323C181A8001003D5 /* UIView+Xib.m */,
+				2FDAC6C523C181A8001003D5 /* UIButton+YXBAdd.h */,
+				2FDAC6C023C181A8001003D5 /* UIButton+YXBAdd.m */,
+				2FDAC6BE23C181A7001003D5 /* UIViewController+YXBAdd.h */,
+				2FDAC6BF23C181A8001003D5 /* UIViewController+YXBAdd.m */,
+				2FDAC6C423C181A8001003D5 /* NSLayoutConstraint+AutoScale.h */,
+				2FDAC6C223C181A8001003D5 /* NSLayoutConstraint+AutoScale.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -318,6 +412,9 @@
 				0C44D5FE2394AE650075DCAD /* LYLWKWebView.m */,
 				0C44D5FF2394AE660075DCAD /* WCQRCodeVC.h */,
 				0C44D6012394AE660075DCAD /* WCQRCodeVC.m */,
+				2FDAC6B923C1815D001003D5 /* CDDetailHeaderView.h */,
+				2FDAC6BA23C1815D001003D5 /* CDDetailHeaderView.m */,
+				2FDAC6BB23C1815D001003D5 /* CDDetailHeaderView.xib */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -387,6 +484,32 @@
 			children = (
 				0CD17C112376BA9E00B38DC8 /* SPHomeViewController.h */,
 				0CD17C122376BA9E00B38DC8 /* SPHomeViewController.m */,
+				2FDAC6A423C18040001003D5 /* SPBannerSectionController.h */,
+				2FDAC6A223C18040001003D5 /* SPBannerSectionController.m */,
+				2FDAC69623C1803F001003D5 /* SPBannerHeaderView.h */,
+				2FDAC69523C1803F001003D5 /* SPBannerHeaderView.m */,
+				2FDAC6A323C18040001003D5 /* SPBannerCell.h */,
+				2FDAC6A023C18040001003D5 /* SPBannerCell.m */,
+				2FDAC69923C1803F001003D5 /* SPHomeButtonSection.h */,
+				2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */,
+				2FDAC69723C1803F001003D5 /* SPHomeNotificSection.h */,
+				2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */,
+				2FDAC6A923C18040001003D5 /* SPHomeNotificCell.h */,
+				2FDAC69A23C1803F001003D5 /* SPHomeNotificCell.m */,
+				2FDAC69F23C18040001003D5 /* SPHomePictureSection.h */,
+				2FDAC69E23C18040001003D5 /* SPHomePictureSection.m */,
+				2FDAC6A723C18040001003D5 /* SPHomeSecKillSection.h */,
+				2FDAC6A623C18040001003D5 /* SPHomeSecKillSection.m */,
+				2FDAC6A823C18040001003D5 /* SPHomeSeckillTimeCell.h */,
+				2FDAC69C23C1803F001003D5 /* SPHomeSeckillTimeCell.m */,
+				2FDAC69423C1803F001003D5 /* SPHomeSeckillCollectionCell.h */,
+				2FDAC6AB23C18041001003D5 /* SPHomeSeckillCollectionCell.m */,
+				2FDAC69823C1803F001003D5 /* SPHomeTeamSection.h */,
+				2FDAC6A523C18040001003D5 /* SPHomeTeamSection.m */,
+				2FDAC6A123C18040001003D5 /* SPHomeTeamTwoSection.h */,
+				2FDAC69D23C1803F001003D5 /* SPHomeTeamTwoSection.m */,
+				2FDAC69B23C1803F001003D5 /* SPRecomendSection.h */,
+				2FDAC6AA23C18040001003D5 /* SPRecomendSection.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -630,6 +753,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C23D5CB239652D00084B326 /* CMReconmmendCell.xib in Resources */,
+				2FDAC6BD23C1815D001003D5 /* CDDetailHeaderView.xib in Resources */,
 				0C23D5CE239652D00084B326 /* BrandsCell.xib in Resources */,
 				0CD17C0E2376AE1A00B38DC8 /* Assets.xcassets in Resources */,
 				0CD17C102376AF5800B38DC8 /* LaunchScreen.storyboard in Resources */,
@@ -685,21 +809,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDAC6B523C18041001003D5 /* SPHomeTeamSection.m in Sources */,
+				2FDAC6D623C18221001003D5 /* YXBFormTopBottomCell.m in Sources */,
 				0C44D6032394AE660075DCAD /* WCQRCodeVC.m in Sources */,
 				0C23D602239658D40084B326 /* SelVideoAPI.m in Sources */,
 				0C23D5C9239652D00084B326 /* CMProductViewController.m in Sources */,
+				2FDAC6C923C181A8001003D5 /* UIView+Xib.m in Sources */,
+				2FDAC6B123C18041001003D5 /* SPHomeTeamTwoSection.m in Sources */,
 				0CD17C132376BA9E00B38DC8 /* SPHomeViewController.m in Sources */,
 				0CD17C0D23769CB700B38DC8 /* TabBarViewController.m in Sources */,
 				0C44D60F2394C4600075DCAD /* LanchAPI.m in Sources */,
 				0CAD6DC2238785CB00306602 /* UserManager.m in Sources */,
+				2FDAC6DB23C18269001003D5 /* YXBNavigationController.m in Sources */,
+				2FDAC6B623C18041001003D5 /* SPHomeSecKillSection.m in Sources */,
 				0C0BE841237ECC1C0025D0F9 /* YXBCell.m in Sources */,
 				0C23D5F4239657C20084B326 /* YXBButtonCell.m in Sources */,
 				0C23D60D239658E40084B326 /* CMVideoModel.m in Sources */,
+				2FDAC6C723C181A8001003D5 /* UIButton+YXBAdd.m in Sources */,
 				0CFBCB8C23812F2700D3921F /* ChineseToPinyin.m in Sources */,
 				0C23D5D1239652D00084B326 /* CMRecommendSection3.m in Sources */,
 				0C0BE84A237ECD530025D0F9 /* YXBSection.m in Sources */,
 				0CFBCB8E23812F2700D3921F /* YXBTextField.m in Sources */,
+				2FDAC6B423C18041001003D5 /* SPBannerSectionController.m in Sources */,
+				2FDAC6AF23C18041001003D5 /* SPHomeNotificCell.m in Sources */,
 				0C23D5C2239652D00084B326 /* CMHomeViewController.m in Sources */,
+				2FDAC6AC23C18041001003D5 /* SPHomeNotificSection.m in Sources */,
 				0C23D5D0239652D00084B326 /* CMRecommendSection4.m in Sources */,
 				0C23D5E22396558E0084B326 /* SPSearchResultCell.m in Sources */,
 				0C23D5C8239652D00084B326 /* CMVideoViewController.m in Sources */,
@@ -714,19 +848,29 @@
 				0C44D60C2394C3290075DCAD /* LanchPageModel.m in Sources */,
 				0C23D60E239658E40084B326 /* ProductModel.m in Sources */,
 				0C0BE847237ECC890025D0F9 /* YXBHeaderView.m in Sources */,
+				2FDAC6BC23C1815D001003D5 /* CDDetailHeaderView.m in Sources */,
+				2FDAC6D723C18221001003D5 /* YXBFormImageCell.m in Sources */,
 				0C44D60B2394C3290075DCAD /* YXBLanchManager.m in Sources */,
 				0CFBCB8D23812F2700D3921F /* YXBUnicode.m in Sources */,
+				2FDAC6D523C18221001003D5 /* YXBFormLeftRightBgCell.m in Sources */,
+				2FDAC6C823C181A8001003D5 /* NSLayoutConstraint+AutoScale.m in Sources */,
+				2FDAC6B323C18041001003D5 /* SPBannerCell.m in Sources */,
+				2FDAC6B023C18041001003D5 /* SPHomeSeckillTimeCell.m in Sources */,
 				0C23D5C5239652D00084B326 /* CMVideoBaseViewController.m in Sources */,
 				0CAD6DE62387B7E400306602 /* UIImage+YXBAdd.m in Sources */,
 				0CAD6DE52387B7E400306602 /* NSArray+YXBAdd.m in Sources */,
 				0C23D60C239658E40084B326 /* CMImageTextModel.m in Sources */,
+				2FDAC6B723C18041001003D5 /* SPRecomendSection.m in Sources */,
 				0C44D6022394AE660075DCAD /* LYLWKWebView.m in Sources */,
 				0C23D601239658D40084B326 /* SelVideoCommentListAPI.m in Sources */,
 				0C23D59B23964CAF0084B326 /* MGiftSection.m in Sources */,
+				2FDAC6AD23C18041001003D5 /* SPHomeButtonSection.m in Sources */,
 				0C0BE852237ED07C0025D0F9 /* MyRequst.m in Sources */,
+				2FDAC6AE23C18041001003D5 /* SPBannerHeaderView.m in Sources */,
 				0C23D5FF239658D40084B326 /* CircleCollectionAPI.m in Sources */,
 				0CFBCB9023812F2700D3921F /* YXBTapAreaButton.m in Sources */,
 				0C23D5CC239652D00084B326 /* BrandsCell.m in Sources */,
+				2FDAC6B223C18041001003D5 /* SPHomePictureSection.m in Sources */,
 				0CFBCB9323812FAE00D3921F /* NSObject+YXBAdd.m in Sources */,
 				0C0A1E17237693B7004F886B /* AppDelegate.m in Sources */,
 				0CFBCB8B23812F2700D3921F /* YXBCheckRegular.m in Sources */,
@@ -737,8 +881,12 @@
 				0C0A1E18237693B7004F886B /* main.m in Sources */,
 				0C0BE83D237ECC0E0025D0F9 /* YXBBaseModel.m in Sources */,
 				0C23D59A23964CAF0084B326 /* MShareSection.m in Sources */,
+				2FDAC6D823C18221001003D5 /* YXBFormLeftRightCell.m in Sources */,
+				2FDAC6B823C18041001003D5 /* SPHomeSeckillCollectionCell.m in Sources */,
+				2FDAC6CC23C18200001003D5 /* YXBImageCell.m in Sources */,
 				0C23D5CD239652D00084B326 /* CMReconmmendPictureSection.m in Sources */,
 				0C23D59923964CAF0084B326 /* MGiftCell.m in Sources */,
+				2FDAC6C623C181A8001003D5 /* UIViewController+YXBAdd.m in Sources */,
 				0C0BE853237ED07C0025D0F9 /* YXBNetConfiger.m in Sources */,
 				0C0BE84D237ECE4C0025D0F9 /* NSArray+IGListDiffable.m in Sources */,
 			);

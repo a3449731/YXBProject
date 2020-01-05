@@ -17,6 +17,42 @@
 #define UIColorFromHex(hex)  RGBAColorWithHEXString(@#hex, 1.0f)
 #define UIImageFromHex(hex)  UIImageWithColor(UIColorFromHex(hex))
 
+// 背景_灰
+#define YXBColorBG_gray UIColorFromHex(#F3F3F3)
+
+// 背景_白
+#define YXBColorBG_white UIColorFromHex(#FFFFFF)
+
+// 背景_黑
+#define YXBColorBG_Black UIColorFromHex(#1E2528)
+
+// 黑色字体
+#define YXBColorBlack UIColorFromHex(#333333)
+
+// 灰色字体
+#define YXBColorGray UIColorFromHex(#A5A7BA)
+
+// 灰色字体
+#define YXBColorGray_999 UIColorFromHex(#999999)
+
+// 白色字体
+#define YXBColorWhite UIColorFromHex(#FFFFFF)
+
+// 蓝色字体
+#define YXBColorBlue UIColorFromHex(#418efb)
+
+// 红色字体
+#define YXBColorRed UIColorFromHex(#F44749)
+
+// 深红色
+#define YXBColorRed_Bold UIColorFromHex(#B32026)
+
+// 绿色字体
+#define YXBColorGreen UIColorFromHex(#03D598)
+
+// 橙色
+#define YXBColorOrange UIColorFromHex(#F8B34B)
+
 
 //颜色转换图片
 NS_INLINE UIImage *UIImageWithColor(UIColor *color) {

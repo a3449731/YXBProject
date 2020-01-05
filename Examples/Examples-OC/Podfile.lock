@@ -32,11 +32,9 @@ PODS:
   - FLAnimatedImage (1.0.12)
   - HappyDNS (0.3.15)
   - HMSegmentedControl (1.5.5)
-  - IGListKit (3.4.0):
-    - IGListKit/Default (= 3.4.0)
-  - IGListKit/Default (3.4.0):
-    - IGListKit/Diffing
-  - IGListKit/Diffing (3.4.0)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
   - IQKeyboardManager (6.5.4)
   - JGProgressHUD (2.1)
   - Masonry (1.1.0)
@@ -58,6 +56,7 @@ PODS:
   - PLShortVideoKit/libMuseProcessor (3.0.0):
     - Qiniu (= 7.2.5)
   - PPNumberButton (0.8.0)
+  - PYSearch (0.9.1)
   - Qiniu (7.2.5):
     - HappyDNS (~> 0.3)
   - QMUIKit (4.0.3):
@@ -379,7 +378,7 @@ DEPENDENCIES:
   - EAIntroView (~> 2.12.0)
   - FDFullscreenPopGesture (~> 1.1)
   - HMSegmentedControl (~> 1.5.3)
-  - IGListKit (~> 3.4.0)
+  - IGListKit (~> 4.0.0)
   - IQKeyboardManager (~> 6.5.4)
   - JGProgressHUD
   - Masonry (~> 1.1.0)
@@ -390,6 +389,7 @@ DEPENDENCIES:
   - PLPlayerKit (~> 3.4.3)
   - PLShortVideoKit
   - PPNumberButton (~> 0.8.0)
+  - PYSearch (~> 0.9.1)
   - Qiniu
   - QMUIKit (~> 4.0.3)
   - RRSwipeCell (~> 0.1.1)
@@ -418,6 +418,7 @@ SPEC REPOS:
     - FLAnimatedImage
     - HappyDNS
     - HMSegmentedControl
+    - IGListDiffKit
     - IGListKit
     - IQKeyboardManager
     - JGProgressHUD
@@ -430,6 +431,7 @@ SPEC REPOS:
     - PLPlayerKit
     - PLShortVideoKit
     - PPNumberButton
+    - PYSearch
     - Qiniu
     - QMUIKit
     - RRSwipeCell
@@ -458,7 +460,8 @@ SPEC CHECKSUMS:
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   HappyDNS: 00c15e651a347206e58a20503a32a5564589b56a
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
-  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
   JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -470,6 +473,7 @@ SPEC CHECKSUMS:
   PLPlayerKit: a44734dc78c1f8f9fb22c537fa1916612fa46b06
   PLShortVideoKit: 901da81b11ae8e397f530bf3d4014921426cbf4c
   PPNumberButton: 4442ff64c21d91733057ca1b3dc05fb4df55f2c0
+  PYSearch: 76dee18eea3309b60921a5d6a69390a63a5dda15
   Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
   QMUIKit: 92b1ac5112562aa4a788d786940c3e84f054aa1e
   RRSwipeCell: 28eb4c1201a3f12ed66184b803492c512d6ceba4
@@ -486,6 +490,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 935d7bf168bbee639b10e0d08334c71b2d0b06be
+PODFILE CHECKSUM: 047d503a463e6ca0efd121b993420c11722b883c
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4

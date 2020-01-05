@@ -127,9 +127,9 @@
     CMRecommendSection4 *sc4 = [CMRecommendSection4 new];
     NSArray *array = @[[CMRecommendSection3 new],
                        sc4];
-    IGListStackedSectionController *stact = [[IGListStackedSectionController alloc] initWithSectionControllers:array];
-    stact.inset = UIEdgeInsetsMake(0, 0, 0, 0);
-    return stact;
+//    IGListStackedSectionController *stact = [[IGListStackedSectionController alloc] initWithSectionControllers:array];
+//    stact.inset = UIEdgeInsetsMake(0, 0, 0, 0);
+    return sc4;
 }
 
 - (nullable UIView *)emptyViewForListAdapter:(IGListAdapter *)listAdapter {

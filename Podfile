@@ -10,7 +10,7 @@ pod 'EAIntroView', '~> 2.12.0' # 引导页 很不错
 pod 'CYLTabBarController', '~> 1.28.4'
 pod 'YTKNetwork', '~> 2.0.4' # 依赖AFNetworking3.0以上
 pod 'SDCycleScrollView', '~> 1.80' # 依赖SDWebImage 5.0以上
-pod 'IGListKit', '~> 3.4.0'
+pod 'IGListKit', '~> 4.0.0'
 pod 'QMUIKit', '~> 4.0.3'
 pod 'Masonry', '~> 1.1.0'
 pod 'MJRefresh','~> 3.1.12'
