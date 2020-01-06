@@ -26,6 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<YXBHeaderDelegate> delegate;
 
+@property (nonatomic, strong) UIView *bgView;
+
 @property (nonatomic, strong) QMUIButton *leftButton;
 @property (nonatomic, strong) QMUIButton *rightButton;
 @property (nonatomic, strong) UIImageView *imageView;

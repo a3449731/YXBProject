@@ -19,16 +19,24 @@
 }
 
 - (void)creatUI {
+    
+    self.bgView = [[UIView alloc] init];
+    self.bgView.backgroundColor = [UIColor clearColor];
+    [self addSubview:self.bgView];
+    [self.bgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(0);
+    }];
+    
     self.leftButton = [QMUIButton buttonWithType:(UIButtonTypeCustom)];
-    [self addSubview:self.leftButton];
+    [self.bgView addSubview:self.leftButton];
     [self.leftButton addTarget:self action:@selector(tapLeftAction:) forControlEvents:(UIControlEventTouchUpInside)];
     
     self.rightButton = [QMUIButton buttonWithType:(UIButtonTypeCustom)];
-    [self addSubview:self.rightButton];
+    [self.bgView addSubview:self.rightButton];
     [self.rightButton addTarget:self action:@selector(tapRightAction:) forControlEvents:(UIControlEventTouchUpInside)];
     
     self.imageView = [[UIImageView alloc] init];
-    [self addSubview:self.imageView];
+    [self.bgView addSubview:self.imageView];
 }
 
 - (void)tapLeftAction:(UIButton *)button {

@@ -67,6 +67,13 @@
 		0CFBCB8E23812F2700D3921F /* YXBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8823812F2700D3921F /* YXBTextField.m */; };
 		0CFBCB9023812F2700D3921F /* YXBTapAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8A23812F2700D3921F /* YXBTapAreaButton.m */; };
 		0CFBCB9323812FAE00D3921F /* NSObject+YXBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB9223812FAE00D3921F /* NSObject+YXBAdd.m */; };
+		2F5288BF23C30CAA0053E42A /* SPHomeButtonTwoSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288BD23C30CAA0053E42A /* SPHomeButtonTwoSection.m */; };
+		2F5288CC23C31A1E0053E42A /* PSHomeThirdSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288C223C31A1D0053E42A /* PSHomeThirdSection.m */; };
+		2F5288CD23C31A1E0053E42A /* PSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288C623C31A1D0053E42A /* PSHomeViewController.m */; };
+		2F5288CE23C31A1E0053E42A /* PSHOrderHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288C723C31A1D0053E42A /* PSHOrderHeaderView.m */; };
+		2F5288CF23C31A1E0053E42A /* PSHomeServeSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288C923C31A1E0053E42A /* PSHomeServeSection.m */; };
+		2F5288D023C31A1E0053E42A /* PSHomeOrderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288CA23C31A1E0053E42A /* PSHomeOrderSection.m */; };
+		2F5288D123C31A1E0053E42A /* PSHOrderHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5288CB23C31A1E0053E42A /* PSHOrderHeaderView.xib */; };
 		2FDAC6AC23C18041001003D5 /* SPHomeNotificSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */; };
 		2FDAC6AD23C18041001003D5 /* SPHomeButtonSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */; };
 		2FDAC6AE23C18041001003D5 /* SPBannerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69523C1803F001003D5 /* SPBannerHeaderView.m */; };
@@ -220,6 +227,19 @@
 		0CFBCB9123812FAE00D3921F /* NSObject+YXBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YXBAdd.h"; sourceTree = "<group>"; };
 		0CFBCB9223812FAE00D3921F /* NSObject+YXBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YXBAdd.m"; sourceTree = "<group>"; };
 		27F625E780A70100A9657E7E /* Pods_OCDemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCDemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5288BD23C30CAA0053E42A /* SPHomeButtonTwoSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeButtonTwoSection.m; sourceTree = "<group>"; };
+		2F5288BE23C30CAA0053E42A /* SPHomeButtonTwoSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeButtonTwoSection.h; sourceTree = "<group>"; };
+		2F5288C123C31A1D0053E42A /* PSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHomeViewController.h; sourceTree = "<group>"; };
+		2F5288C223C31A1D0053E42A /* PSHomeThirdSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHomeThirdSection.m; sourceTree = "<group>"; };
+		2F5288C323C31A1D0053E42A /* PSHOrderHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHOrderHeaderView.h; sourceTree = "<group>"; };
+		2F5288C423C31A1D0053E42A /* PSHomeOrderSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHomeOrderSection.h; sourceTree = "<group>"; };
+		2F5288C523C31A1D0053E42A /* PSHomeServeSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHomeServeSection.h; sourceTree = "<group>"; };
+		2F5288C623C31A1D0053E42A /* PSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHomeViewController.m; sourceTree = "<group>"; };
+		2F5288C723C31A1D0053E42A /* PSHOrderHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHOrderHeaderView.m; sourceTree = "<group>"; };
+		2F5288C823C31A1D0053E42A /* PSHomeThirdSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHomeThirdSection.h; sourceTree = "<group>"; };
+		2F5288C923C31A1E0053E42A /* PSHomeServeSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHomeServeSection.m; sourceTree = "<group>"; };
+		2F5288CA23C31A1E0053E42A /* PSHomeOrderSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHomeOrderSection.m; sourceTree = "<group>"; };
+		2F5288CB23C31A1E0053E42A /* PSHOrderHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSHOrderHeaderView.xib; sourceTree = "<group>"; };
 		2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeNotificSection.m; sourceTree = "<group>"; };
 		2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeButtonSection.m; sourceTree = "<group>"; };
 		2FDAC69423C1803F001003D5 /* SPHomeSeckillCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeSeckillCollectionCell.h; sourceTree = "<group>"; };
@@ -454,24 +474,9 @@
 				0C0A1E1223769270004F886B /* 首页 */,
 				0C23D59D239652D00084B326 /* 发圈 */,
 				0C0A1E112376926D004F886B /* 会员 */,
-				0C0A1E102376926B004F886B /* 购物车 */,
-				0C0A1E0F23769268004F886B /* 我的 */,
+				2F5288C023C319E50053E42A /* 个人中心 */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		0C0A1E0F23769268004F886B /* 我的 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "我的";
-			sourceTree = "<group>";
-		};
-		0C0A1E102376926B004F886B /* 购物车 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "购物车";
 			sourceTree = "<group>";
 		};
 		0C0A1E112376926D004F886B /* 会员 */ = {
@@ -495,6 +500,8 @@
 				2FDAC6A023C18040001003D5 /* SPBannerCell.m */,
 				2FDAC69923C1803F001003D5 /* SPHomeButtonSection.h */,
 				2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */,
+				2F5288BE23C30CAA0053E42A /* SPHomeButtonTwoSection.h */,
+				2F5288BD23C30CAA0053E42A /* SPHomeButtonTwoSection.m */,
 				2FDAC69723C1803F001003D5 /* SPHomeNotificSection.h */,
 				2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */,
 				2FDAC6A923C18040001003D5 /* SPHomeNotificCell.h */,
@@ -679,6 +686,24 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		2F5288C023C319E50053E42A /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				2F5288C123C31A1D0053E42A /* PSHomeViewController.h */,
+				2F5288C623C31A1D0053E42A /* PSHomeViewController.m */,
+				2F5288C423C31A1D0053E42A /* PSHomeOrderSection.h */,
+				2F5288CA23C31A1E0053E42A /* PSHomeOrderSection.m */,
+				2F5288C323C31A1D0053E42A /* PSHOrderHeaderView.h */,
+				2F5288C723C31A1D0053E42A /* PSHOrderHeaderView.m */,
+				2F5288CB23C31A1E0053E42A /* PSHOrderHeaderView.xib */,
+				2F5288C523C31A1D0053E42A /* PSHomeServeSection.h */,
+				2F5288C923C31A1E0053E42A /* PSHomeServeSection.m */,
+				2F5288C823C31A1D0053E42A /* PSHomeThirdSection.h */,
+				2F5288C223C31A1D0053E42A /* PSHomeThirdSection.m */,
+			);
+			path = "个人中心";
+			sourceTree = "<group>";
+		};
 		6AB85BBA576DA41B745C1E46 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -759,6 +784,7 @@
 			files = (
 				0C23D5CB239652D00084B326 /* CMReconmmendCell.xib in Resources */,
 				2FDAC6BD23C1815D001003D5 /* CDDetailHeaderView.xib in Resources */,
+				2F5288D123C31A1E0053E42A /* PSHOrderHeaderView.xib in Resources */,
 				0C23D5CE239652D00084B326 /* BrandsCell.xib in Resources */,
 				0CD17C0E2376AE1A00B38DC8 /* Assets.xcassets in Resources */,
 				0CD17C102376AF5800B38DC8 /* LaunchScreen.storyboard in Resources */,
@@ -850,6 +876,7 @@
 				0C23D5C7239652D00084B326 /* CMCommentCell.m in Sources */,
 				0C44D6062394B06E0075DCAD /* YXBConstDefine.m in Sources */,
 				0C23D600239658D40084B326 /* InsVideoCommentAPI.m in Sources */,
+				2F5288CC23C31A1E0053E42A /* PSHomeThirdSection.m in Sources */,
 				0C23D5D2239652D00084B326 /* CMReconmmendCell.m in Sources */,
 				0C44D60C2394C3290075DCAD /* LanchPageModel.m in Sources */,
 				0C23D60E239658E40084B326 /* ProductModel.m in Sources */,
@@ -869,6 +896,7 @@
 				2FDAC6B723C18041001003D5 /* SPRecomendSection.m in Sources */,
 				0C44D6022394AE660075DCAD /* LYLWKWebView.m in Sources */,
 				0C23D601239658D40084B326 /* SelVideoCommentListAPI.m in Sources */,
+				2F5288CD23C31A1E0053E42A /* PSHomeViewController.m in Sources */,
 				0C23D59B23964CAF0084B326 /* MGiftSection.m in Sources */,
 				2FDAC6AD23C18041001003D5 /* SPHomeButtonSection.m in Sources */,
 				0C0BE852237ED07C0025D0F9 /* MyRequst.m in Sources */,
@@ -881,19 +909,23 @@
 				0C0A1E17237693B7004F886B /* AppDelegate.m in Sources */,
 				0CFBCB8B23812F2700D3921F /* YXBCheckRegular.m in Sources */,
 				0C23D5C6239652D00084B326 /* CMCommentViewController.m in Sources */,
+				2F5288CF23C31A1E0053E42A /* PSHomeServeSection.m in Sources */,
 				0C23D59C23964CAF0084B326 /* MemberViewController.m in Sources */,
 				0C0BE844237ECC720025D0F9 /* YXBCollectionCell.m in Sources */,
 				0C23D5C4239652D00084B326 /* CMVideoPageViewController.m in Sources */,
 				0C0A1E18237693B7004F886B /* main.m in Sources */,
 				0C0BE83D237ECC0E0025D0F9 /* YXBBaseModel.m in Sources */,
+				2F5288CE23C31A1E0053E42A /* PSHOrderHeaderView.m in Sources */,
 				0C23D59A23964CAF0084B326 /* MShareSection.m in Sources */,
 				2FDAC6D823C18221001003D5 /* YXBFormLeftRightCell.m in Sources */,
+				2F5288D023C31A1E0053E42A /* PSHomeOrderSection.m in Sources */,
 				2FDAC6B823C18041001003D5 /* SPHomeSeckillCollectionCell.m in Sources */,
 				2FDAC6CC23C18200001003D5 /* YXBImageCell.m in Sources */,
 				0C23D5CD239652D00084B326 /* CMReconmmendPictureSection.m in Sources */,
 				0C23D59923964CAF0084B326 /* MGiftCell.m in Sources */,
 				2FDAC6C623C181A8001003D5 /* UIViewController+YXBAdd.m in Sources */,
 				0C0BE853237ED07C0025D0F9 /* YXBNetConfiger.m in Sources */,
+				2F5288BF23C30CAA0053E42A /* SPHomeButtonTwoSection.m in Sources */,
 				0C0BE84D237ECE4C0025D0F9 /* NSArray+IGListDiffable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,9 +21,13 @@
 
 - (void)creatUI {
     self.button = [QMUIButton buttonWithType:(UIButtonTypeCustom)];
+    self.button.backgroundColor = [UIColor whiteColor];
     [self.contentView addSubview:self.button];
     [self.button mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(0);
+        make.left.mas_equalTo(0);
+        make.right.mas_equalTo(0.3);
+        make.top.mas_equalTo(0);
+        make.bottom.mas_equalTo(0);
     }];
 }
 

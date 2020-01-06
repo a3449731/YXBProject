@@ -20,6 +20,16 @@
  */
 + (NSMutableArray *)getPropertyArrayWithString:(NSString *)property inTheArray:(NSArray *)array;
 
+/// 拆分数组
+/// @param subSize 多少个一分组
+- (NSArray *)splitWithSubSize : (int)subSize;
+
+/// 奇数偶数分离, 奇数在前
+- (NSArray *)partitionArray;
+
+// 纵向排列 -> 横向排列 的排序 (先补齐数组个数)
+- (NSArray *)verticalToHornorRank:(NSInteger)targetCount;
+
 
 /**
  图片数组 转成base64数组
