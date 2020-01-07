@@ -12,6 +12,7 @@
 #import "MemberViewController.h"
 #import "CMHomeViewController.h"
 #import "PSHomeViewController.h"
+#import "CTHomeViewController.h"
 
 @interface TabBarViewController ()<UITabBarControllerDelegate>
 
@@ -45,6 +46,7 @@
     [self configSecondVC];
     [self configThiredVC];
     [self configFourthVC];
+    [self configFifthVC];
     UIEdgeInsets imageInsets = UIEdgeInsetsZero;//UIEdgeInsetsMake(4.5, 0, -4.5, 0);
     UIOffset titlePositionAdjustment = UIOffsetMake(0, -3.5);
     return [super initWithViewControllers:self.vcArray tabBarItemsAttributes:self.configArray imageInsets:imageInsets titlePositionAdjustment:titlePositionAdjustment];    
@@ -91,6 +93,25 @@
 }
 
 - (void)configThiredVC {
+    UIViewController *vc = [[CTHomeViewController alloc] init];
+    UINavigationController *nav = [[YXBNavigationController alloc]
+                             initWithRootViewController:vc];
+    CGFloat firstXOffset = -12/2;
+    NSDictionary *firstTabBarItemsAttributes = @{
+        CYLTabBarItemTitle : @"首页",
+        CYLTabBarItemImage : @"home_normal",  /* NSString and UIImage are supported*/
+        CYLTabBarItemSelectedImage : @"home_highlight",  /* NSString and UIImage are supported*/
+        CYLTabBarItemTitlePositionAdjustment: [NSValue valueWithUIOffset:UIOffsetMake(firstXOffset, -3.5)],
+//        CYLTabBarItemTitlePositionAdjustment: [NSValue valueWithUIOffset:UIOffsetMake(-firstXOffset, -3.5)],
+//        CYLTabBarLottieURL: [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"tab_me_animate" ofType:@"json"]],
+//        CYLTabBarLottieSize: [NSValue valueWithCGSize:CGSizeMake(22, 22)]
+    };
+    //    [nav cyl_setHideNavigationBarSeparator:YES];
+    [self.vcArray addObject:nav];
+    [self.configArray addObject:firstTabBarItemsAttributes];
+}
+
+- (void)configFifthVC {
     UIViewController *vc = [[MemberViewController alloc] init];
     UINavigationController *nav = [[CYLBaseNavigationController alloc]
                              initWithRootViewController:vc];

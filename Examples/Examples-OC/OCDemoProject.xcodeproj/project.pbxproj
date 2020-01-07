@@ -67,6 +67,14 @@
 		0CFBCB8E23812F2700D3921F /* YXBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8823812F2700D3921F /* YXBTextField.m */; };
 		0CFBCB9023812F2700D3921F /* YXBTapAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB8A23812F2700D3921F /* YXBTapAreaButton.m */; };
 		0CFBCB9323812FAE00D3921F /* NSObject+YXBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBCB9223812FAE00D3921F /* NSObject+YXBAdd.m */; };
+		2F102E9A23C468FC00FB9C6D /* CTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E8B23C468FB00FB9C6D /* CTHomeViewController.m */; };
+		2F102E9B23C468FC00FB9C6D /* CTHEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9123C468FB00FB9C6D /* CTHEmptyCell.m */; };
+		2F102E9C23C468FC00FB9C6D /* CTHStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9223C468FB00FB9C6D /* CTHStoreModel.m */; };
+		2F102E9D23C468FC00FB9C6D /* CTHStoreSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9323C468FB00FB9C6D /* CTHStoreSection.m */; };
+		2F102E9E23C468FC00FB9C6D /* CTHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9423C468FB00FB9C6D /* CTHomeModel.m */; };
+		2F102E9F23C468FC00FB9C6D /* CTHProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9523C468FB00FB9C6D /* CTHProductModel.m */; };
+		2F102EA023C468FC00FB9C6D /* CTHEmptySection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9623C468FB00FB9C6D /* CTHEmptySection.m */; };
+		2F102EA123C468FC00FB9C6D /* CTHProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9723C468FB00FB9C6D /* CTHProductCell.m */; };
 		2F5288BF23C30CAA0053E42A /* SPHomeButtonTwoSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288BD23C30CAA0053E42A /* SPHomeButtonTwoSection.m */; };
 		2F5288CC23C31A1E0053E42A /* PSHomeThirdSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288C223C31A1D0053E42A /* PSHomeThirdSection.m */; };
 		2F5288CD23C31A1E0053E42A /* PSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288C623C31A1D0053E42A /* PSHomeViewController.m */; };
@@ -227,6 +235,22 @@
 		0CFBCB9123812FAE00D3921F /* NSObject+YXBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YXBAdd.h"; sourceTree = "<group>"; };
 		0CFBCB9223812FAE00D3921F /* NSObject+YXBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YXBAdd.m"; sourceTree = "<group>"; };
 		27F625E780A70100A9657E7E /* Pods_OCDemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCDemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F102E8A23C468FB00FB9C6D /* CTHStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHStoreModel.h; sourceTree = "<group>"; };
+		2F102E8B23C468FB00FB9C6D /* CTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHomeViewController.m; sourceTree = "<group>"; };
+		2F102E8C23C468FB00FB9C6D /* CTHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHomeModel.h; sourceTree = "<group>"; };
+		2F102E8D23C468FB00FB9C6D /* CTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHomeViewController.h; sourceTree = "<group>"; };
+		2F102E8E23C468FB00FB9C6D /* CTHEmptyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHEmptyCell.h; sourceTree = "<group>"; };
+		2F102E8F23C468FB00FB9C6D /* CTHProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHProductModel.h; sourceTree = "<group>"; };
+		2F102E9023C468FB00FB9C6D /* CTHStoreSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHStoreSection.h; sourceTree = "<group>"; };
+		2F102E9123C468FB00FB9C6D /* CTHEmptyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHEmptyCell.m; sourceTree = "<group>"; };
+		2F102E9223C468FB00FB9C6D /* CTHStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHStoreModel.m; sourceTree = "<group>"; };
+		2F102E9323C468FB00FB9C6D /* CTHStoreSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHStoreSection.m; sourceTree = "<group>"; };
+		2F102E9423C468FB00FB9C6D /* CTHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHomeModel.m; sourceTree = "<group>"; };
+		2F102E9523C468FB00FB9C6D /* CTHProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHProductModel.m; sourceTree = "<group>"; };
+		2F102E9623C468FB00FB9C6D /* CTHEmptySection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHEmptySection.m; sourceTree = "<group>"; };
+		2F102E9723C468FB00FB9C6D /* CTHProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHProductCell.m; sourceTree = "<group>"; };
+		2F102E9823C468FC00FB9C6D /* CTHEmptySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHEmptySection.h; sourceTree = "<group>"; };
+		2F102E9923C468FC00FB9C6D /* CTHProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHProductCell.h; sourceTree = "<group>"; };
 		2F5288BD23C30CAA0053E42A /* SPHomeButtonTwoSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeButtonTwoSection.m; sourceTree = "<group>"; };
 		2F5288BE23C30CAA0053E42A /* SPHomeButtonTwoSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeButtonTwoSection.h; sourceTree = "<group>"; };
 		2F5288C123C31A1D0053E42A /* PSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHomeViewController.h; sourceTree = "<group>"; };
@@ -471,6 +495,7 @@
 		0C0A1E0E2376924A004F886B /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				2F102E8923C468D500FB9C6D /* 购物车 */,
 				0C0A1E1223769270004F886B /* 首页 */,
 				0C23D59D239652D00084B326 /* 发圈 */,
 				0C0A1E112376926D004F886B /* 会员 */,
@@ -686,6 +711,29 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		2F102E8923C468D500FB9C6D /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				2F102E8D23C468FB00FB9C6D /* CTHomeViewController.h */,
+				2F102E8B23C468FB00FB9C6D /* CTHomeViewController.m */,
+				2F102E9023C468FB00FB9C6D /* CTHStoreSection.h */,
+				2F102E9323C468FB00FB9C6D /* CTHStoreSection.m */,
+				2F102E9923C468FC00FB9C6D /* CTHProductCell.h */,
+				2F102E9723C468FB00FB9C6D /* CTHProductCell.m */,
+				2F102E8C23C468FB00FB9C6D /* CTHomeModel.h */,
+				2F102E9423C468FB00FB9C6D /* CTHomeModel.m */,
+				2F102E8A23C468FB00FB9C6D /* CTHStoreModel.h */,
+				2F102E9223C468FB00FB9C6D /* CTHStoreModel.m */,
+				2F102E8F23C468FB00FB9C6D /* CTHProductModel.h */,
+				2F102E9523C468FB00FB9C6D /* CTHProductModel.m */,
+				2F102E9823C468FC00FB9C6D /* CTHEmptySection.h */,
+				2F102E9623C468FB00FB9C6D /* CTHEmptySection.m */,
+				2F102E8E23C468FB00FB9C6D /* CTHEmptyCell.h */,
+				2F102E9123C468FB00FB9C6D /* CTHEmptyCell.m */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
 		2F5288C023C319E50053E42A /* 个人中心 */ = {
 			isa = PBXGroup;
 			children = (
@@ -840,11 +888,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F102EA123C468FC00FB9C6D /* CTHProductCell.m in Sources */,
 				2FDAC6B523C18041001003D5 /* SPHomeTeamSection.m in Sources */,
 				2FDAC6D623C18221001003D5 /* YXBFormTopBottomCell.m in Sources */,
 				0C44D6032394AE660075DCAD /* WCQRCodeVC.m in Sources */,
 				0C23D602239658D40084B326 /* SelVideoAPI.m in Sources */,
 				0C23D5C9239652D00084B326 /* CMProductViewController.m in Sources */,
+				2F102E9D23C468FC00FB9C6D /* CTHStoreSection.m in Sources */,
 				2FDAC6C923C181A8001003D5 /* UIView+Xib.m in Sources */,
 				2FDAC6B123C18041001003D5 /* SPHomeTeamTwoSection.m in Sources */,
 				0CD17C132376BA9E00B38DC8 /* SPHomeViewController.m in Sources */,
@@ -869,6 +919,7 @@
 				2FEC478323C1E1CE005AC1FE /* SPHomeProductCell.m in Sources */,
 				0C23D5E22396558E0084B326 /* SPSearchResultCell.m in Sources */,
 				0C23D5C8239652D00084B326 /* CMVideoViewController.m in Sources */,
+				2F102E9C23C468FC00FB9C6D /* CTHStoreModel.m in Sources */,
 				0C23D60B239658E40084B326 /* CMCommentModel.m in Sources */,
 				0C23D5C3239652D00084B326 /* CMSendImageTextViewController.m in Sources */,
 				0C23D5CF239652D00084B326 /* CMImageTextViewController.m in Sources */,
@@ -885,18 +936,21 @@
 				2FDAC6D723C18221001003D5 /* YXBFormImageCell.m in Sources */,
 				0C44D60B2394C3290075DCAD /* YXBLanchManager.m in Sources */,
 				0CFBCB8D23812F2700D3921F /* YXBUnicode.m in Sources */,
+				2F102EA023C468FC00FB9C6D /* CTHEmptySection.m in Sources */,
 				2FDAC6D523C18221001003D5 /* YXBFormLeftRightBgCell.m in Sources */,
 				2FDAC6C823C181A8001003D5 /* NSLayoutConstraint+AutoScale.m in Sources */,
 				2FDAC6B323C18041001003D5 /* SPBannerCell.m in Sources */,
 				2FDAC6B023C18041001003D5 /* SPHomeSeckillTimeCell.m in Sources */,
 				0C23D5C5239652D00084B326 /* CMVideoBaseViewController.m in Sources */,
 				0CAD6DE62387B7E400306602 /* UIImage+YXBAdd.m in Sources */,
+				2F102E9E23C468FC00FB9C6D /* CTHomeModel.m in Sources */,
 				0CAD6DE52387B7E400306602 /* NSArray+YXBAdd.m in Sources */,
 				0C23D60C239658E40084B326 /* CMImageTextModel.m in Sources */,
 				2FDAC6B723C18041001003D5 /* SPRecomendSection.m in Sources */,
 				0C44D6022394AE660075DCAD /* LYLWKWebView.m in Sources */,
 				0C23D601239658D40084B326 /* SelVideoCommentListAPI.m in Sources */,
 				2F5288CD23C31A1E0053E42A /* PSHomeViewController.m in Sources */,
+				2F102E9F23C468FC00FB9C6D /* CTHProductModel.m in Sources */,
 				0C23D59B23964CAF0084B326 /* MGiftSection.m in Sources */,
 				2FDAC6AD23C18041001003D5 /* SPHomeButtonSection.m in Sources */,
 				0C0BE852237ED07C0025D0F9 /* MyRequst.m in Sources */,
@@ -904,6 +958,7 @@
 				0C23D5FF239658D40084B326 /* CircleCollectionAPI.m in Sources */,
 				0CFBCB9023812F2700D3921F /* YXBTapAreaButton.m in Sources */,
 				0C23D5CC239652D00084B326 /* BrandsCell.m in Sources */,
+				2F102E9A23C468FC00FB9C6D /* CTHomeViewController.m in Sources */,
 				2FDAC6B223C18041001003D5 /* SPHomePictureSection.m in Sources */,
 				0CFBCB9323812FAE00D3921F /* NSObject+YXBAdd.m in Sources */,
 				0C0A1E17237693B7004F886B /* AppDelegate.m in Sources */,
@@ -923,6 +978,7 @@
 				2FDAC6CC23C18200001003D5 /* YXBImageCell.m in Sources */,
 				0C23D5CD239652D00084B326 /* CMReconmmendPictureSection.m in Sources */,
 				0C23D59923964CAF0084B326 /* MGiftCell.m in Sources */,
+				2F102E9B23C468FC00FB9C6D /* CTHEmptyCell.m in Sources */,
 				2FDAC6C623C181A8001003D5 /* UIViewController+YXBAdd.m in Sources */,
 				0C0BE853237ED07C0025D0F9 /* YXBNetConfiger.m in Sources */,
 				2F5288BF23C30CAA0053E42A /* SPHomeButtonTwoSection.m in Sources */,

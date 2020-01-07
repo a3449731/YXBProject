@@ -13,7 +13,7 @@
 #import "NSObject+YXBAdd.h"
 #import "YXBConstDefine.h"
 
-#define ShowToast(msg) [[UIApplication sharedApplication].keyWindow makeToast:msg duration:3 position:CSToastPositionCenter];
+#define ShowToast(msg) [[UIApplication sharedApplication].keyWindow makeToast:msg duration:1.5 position:CSToastPositionCenter];
 
 
 /// 修补字符串 小数位
@@ -61,7 +61,10 @@ NS_INLINE NSString *stringRepairScaleWithString(NSString *original, NSInteger sc
 /// @param original 原字符串
 /// @param scale 精度几位小数
 NS_INLINE NSString *stringAccuracyRoundDown(NSString *original, NSInteger scale) {
-    if (original == nil) {
+    if (original == nil || [original yxb_isNull]) {
+        original = @"0";
+    }
+    if (original.length == 0) {
         original = @"0";
     }
     NSString *revisetring = [NSString stringWithFormat:@"%@", original];
