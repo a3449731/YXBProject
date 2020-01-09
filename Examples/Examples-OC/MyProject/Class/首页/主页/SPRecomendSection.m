@@ -9,6 +9,8 @@
 #import "SPRecomendSection.h"
 #import "YXBHeaderView.h"
 #import "SPHomeProductCell.h"
+#import <YYText/YYText.h>
+#import "SPProductDetailViewController.h"
 
 @interface SPRecomendSection () <IGListSupplementaryViewSource>
 
@@ -28,11 +30,11 @@
 }
 
 - (NSInteger)numberOfItems {
-    return 20;
+    return 5;
 }
 
 - (CGSize)sizeForItemAtIndex:(NSInteger)index {
-    return CGSizeMake(kItemWidthCount(2), scaleBase375(kItemWidthCount(2)) + 110);
+    return CGSizeMake(kItemWidthCount(2), scaleBase375(kItemWidthCount(2)) + 115);
 }
 
 - (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {
@@ -50,7 +52,10 @@
     cell.productImageView.image = [UIImage imageNamed:@"sy_hot_goods2"];
     cell.nameLabel.text = @"2019秋冬新款纯羊绒衫女 半高领加厚毛衣宽松纯...";
     cell.priceLabel.text = @"￥59.9";
-    cell.otherPriceLabel.text = @"￥19.9";
+    NSMutableAttributedString *att = [[NSMutableAttributedString alloc] initWithString:@"￥19.9"];
+    [att addAttribute:NSStrikethroughStyleAttributeName value:@(NSUnderlineStyleSingle) range:NSMakeRange(0, att.string.length)];
+//    [att setYy_strikethroughStyle:(NSUnderlineStyleSingle)];
+    cell.otherPriceLabel.attributedText = att;
     [cell.tipButton setImage:[UIImage imageNamed:@"sy_hot_Label"] forState:(UIControlStateNormal)];
     cell.saleLabel.text = @"已售100件";
     cell.adressLabel.text = @"广州";
@@ -63,6 +68,9 @@
 - (void)didSelectItemAtIndex:(NSInteger)index {
     NSString *string = [NSString stringWithFormat:@"点击推荐第%ld个",index];
     ShowToast(string);
+    
+    SPProductDetailViewController *vc = [SPProductDetailViewController new];
+    PUSH(vc);
 }
 
 - (NSArray<NSString *> *)supportedElementKinds {

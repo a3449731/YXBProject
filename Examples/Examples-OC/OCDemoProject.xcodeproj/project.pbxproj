@@ -82,6 +82,26 @@
 		2F5288CF23C31A1E0053E42A /* PSHomeServeSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288C923C31A1E0053E42A /* PSHomeServeSection.m */; };
 		2F5288D023C31A1E0053E42A /* PSHomeOrderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288CA23C31A1E0053E42A /* PSHomeOrderSection.m */; };
 		2F5288D123C31A1E0053E42A /* PSHOrderHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5288CB23C31A1E0053E42A /* PSHOrderHeaderView.xib */; };
+		2FC78B4C23C716F900718D62 /* SPProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B2323C716F800718D62 /* SPProductDetailViewController.m */; };
+		2FC78B4D23C716F900718D62 /* SPPDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B2623C716F900718D62 /* SPPDWebView.m */; };
+		2FC78B4E23C716F900718D62 /* SPPDTeamBuyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B2B23C716F900718D62 /* SPPDTeamBuyCell.m */; };
+		2FC78B4F23C716F900718D62 /* SPPDTeamBuySection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B2C23C716F900718D62 /* SPPDTeamBuySection.m */; };
+		2FC78B5023C716F900718D62 /* SPPDEvaluateSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B2F23C716F900718D62 /* SPPDEvaluateSection.m */; };
+		2FC78B5123C716F900718D62 /* SPPDInfoSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B3023C716F900718D62 /* SPPDInfoSection.m */; };
+		2FC78B5223C716F900718D62 /* SPPDIntroduceSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B3123C716F900718D62 /* SPPDIntroduceSection.m */; };
+		2FC78B5323C716F900718D62 /* SPPDStoreTwoSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B3423C716F900718D62 /* SPPDStoreTwoSection.m */; };
+		2FC78B5423C716F900718D62 /* SPPDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B3523C716F900718D62 /* SPPDetailView.m */; };
+		2FC78B5523C716F900718D62 /* SPPDSpecificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B3623C716F900718D62 /* SPPDSpecificationCell.m */; };
+		2FC78B5623C716F900718D62 /* SPPDStoreSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B3923C716F900718D62 /* SPPDStoreSection.m */; };
+		2FC78B5723C716F900718D62 /* SPPDIntroduceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B3A23C716F900718D62 /* SPPDIntroduceCell.m */; };
+		2FC78B5823C716F900718D62 /* SPPDInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B3D23C716F900718D62 /* SPPDInfoCell.m */; };
+		2FC78B5923C716F900718D62 /* SPPDSpecificationSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B3E23C716F900718D62 /* SPPDSpecificationSection.m */; };
+		2FC78B5A23C716F900718D62 /* SPCommonPictureSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B4123C716F900718D62 /* SPCommonPictureSectionController.m */; };
+		2FC78B5B23C716F900718D62 /* SPPCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B4323C716F900718D62 /* SPPCommonView.m */; };
+		2FC78B5C23C716F900718D62 /* SPCommonSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B4423C716F900718D62 /* SPCommonSectionController.m */; };
+		2FC78B5D23C716F900718D62 /* SPCommonPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B4823C716F900718D62 /* SPCommonPictureCell.m */; };
+		2FC78B5E23C716F900718D62 /* SPCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B4923C716F900718D62 /* SPCommonCell.m */; };
+		2FC78B6323C717E100718D62 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC78B6223C717E100718D62 /* MZTimerLabel.m */; };
 		2FDAC6AC23C18041001003D5 /* SPHomeNotificSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */; };
 		2FDAC6AD23C18041001003D5 /* SPHomeButtonSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */; };
 		2FDAC6AE23C18041001003D5 /* SPBannerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDAC69523C1803F001003D5 /* SPBannerHeaderView.m */; };
@@ -264,6 +284,46 @@
 		2F5288C923C31A1E0053E42A /* PSHomeServeSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHomeServeSection.m; sourceTree = "<group>"; };
 		2F5288CA23C31A1E0053E42A /* PSHomeOrderSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHomeOrderSection.m; sourceTree = "<group>"; };
 		2F5288CB23C31A1E0053E42A /* PSHOrderHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSHOrderHeaderView.xib; sourceTree = "<group>"; };
+		2FC78B2323C716F800718D62 /* SPProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPProductDetailViewController.m; sourceTree = "<group>"; };
+		2FC78B2523C716F900718D62 /* SPPDWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDWebView.h; sourceTree = "<group>"; };
+		2FC78B2623C716F900718D62 /* SPPDWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDWebView.m; sourceTree = "<group>"; };
+		2FC78B2823C716F900718D62 /* SPPDStoreTwoSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDStoreTwoSection.h; sourceTree = "<group>"; };
+		2FC78B2923C716F900718D62 /* SPPDIntroduceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDIntroduceCell.h; sourceTree = "<group>"; };
+		2FC78B2A23C716F900718D62 /* SPPDStoreSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDStoreSection.h; sourceTree = "<group>"; };
+		2FC78B2B23C716F900718D62 /* SPPDTeamBuyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDTeamBuyCell.m; sourceTree = "<group>"; };
+		2FC78B2C23C716F900718D62 /* SPPDTeamBuySection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDTeamBuySection.m; sourceTree = "<group>"; };
+		2FC78B2D23C716F900718D62 /* SPPDSpecificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDSpecificationCell.h; sourceTree = "<group>"; };
+		2FC78B2E23C716F900718D62 /* SPPDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDetailView.h; sourceTree = "<group>"; };
+		2FC78B2F23C716F900718D62 /* SPPDEvaluateSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDEvaluateSection.m; sourceTree = "<group>"; };
+		2FC78B3023C716F900718D62 /* SPPDInfoSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDInfoSection.m; sourceTree = "<group>"; };
+		2FC78B3123C716F900718D62 /* SPPDIntroduceSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDIntroduceSection.m; sourceTree = "<group>"; };
+		2FC78B3223C716F900718D62 /* SPPDSpecificationSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDSpecificationSection.h; sourceTree = "<group>"; };
+		2FC78B3323C716F900718D62 /* SPPDInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDInfoCell.h; sourceTree = "<group>"; };
+		2FC78B3423C716F900718D62 /* SPPDStoreTwoSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDStoreTwoSection.m; sourceTree = "<group>"; };
+		2FC78B3523C716F900718D62 /* SPPDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDetailView.m; sourceTree = "<group>"; };
+		2FC78B3623C716F900718D62 /* SPPDSpecificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDSpecificationCell.m; sourceTree = "<group>"; };
+		2FC78B3723C716F900718D62 /* SPPDTeamBuySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDTeamBuySection.h; sourceTree = "<group>"; };
+		2FC78B3823C716F900718D62 /* SPPDTeamBuyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDTeamBuyCell.h; sourceTree = "<group>"; };
+		2FC78B3923C716F900718D62 /* SPPDStoreSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDStoreSection.m; sourceTree = "<group>"; };
+		2FC78B3A23C716F900718D62 /* SPPDIntroduceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDIntroduceCell.m; sourceTree = "<group>"; };
+		2FC78B3B23C716F900718D62 /* SPPDInfoSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDInfoSection.h; sourceTree = "<group>"; };
+		2FC78B3C23C716F900718D62 /* SPPDEvaluateSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDEvaluateSection.h; sourceTree = "<group>"; };
+		2FC78B3D23C716F900718D62 /* SPPDInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDInfoCell.m; sourceTree = "<group>"; };
+		2FC78B3E23C716F900718D62 /* SPPDSpecificationSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPDSpecificationSection.m; sourceTree = "<group>"; };
+		2FC78B3F23C716F900718D62 /* SPPDIntroduceSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPDIntroduceSection.h; sourceTree = "<group>"; };
+		2FC78B4123C716F900718D62 /* SPCommonPictureSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCommonPictureSectionController.m; sourceTree = "<group>"; };
+		2FC78B4223C716F900718D62 /* SPCommonPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCommonPictureCell.h; sourceTree = "<group>"; };
+		2FC78B4323C716F900718D62 /* SPPCommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPCommonView.m; sourceTree = "<group>"; };
+		2FC78B4423C716F900718D62 /* SPCommonSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCommonSectionController.m; sourceTree = "<group>"; };
+		2FC78B4523C716F900718D62 /* SPCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCommonCell.h; sourceTree = "<group>"; };
+		2FC78B4623C716F900718D62 /* SPCommonPictureSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCommonPictureSectionController.h; sourceTree = "<group>"; };
+		2FC78B4723C716F900718D62 /* SPPCommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPCommonView.h; sourceTree = "<group>"; };
+		2FC78B4823C716F900718D62 /* SPCommonPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCommonPictureCell.m; sourceTree = "<group>"; };
+		2FC78B4923C716F900718D62 /* SPCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCommonCell.m; sourceTree = "<group>"; };
+		2FC78B4A23C716F900718D62 /* SPCommonSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCommonSectionController.h; sourceTree = "<group>"; };
+		2FC78B4B23C716F900718D62 /* SPProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPProductDetailViewController.h; sourceTree = "<group>"; };
+		2FC78B6123C717E100718D62 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		2FC78B6223C717E100718D62 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
 		2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeNotificSection.m; sourceTree = "<group>"; };
 		2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeButtonSection.m; sourceTree = "<group>"; };
 		2FDAC69423C1803F001003D5 /* SPHomeSeckillCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeSeckillCollectionCell.h; sourceTree = "<group>"; };
@@ -364,6 +424,7 @@
 				0C0A1E0B237691EE004F886B /* Network */,
 				0C0A1E0A237691DF004F886B /* UserData */,
 				0C0A1E0D23769221004F886B /* Asset */,
+				2FC78B5F23C717C000718D62 /* Third */,
 			);
 			path = MyProject;
 			sourceTree = "<group>";
@@ -515,38 +576,8 @@
 		0C0A1E1223769270004F886B /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				0CD17C112376BA9E00B38DC8 /* SPHomeViewController.h */,
-				0CD17C122376BA9E00B38DC8 /* SPHomeViewController.m */,
-				2FDAC6A423C18040001003D5 /* SPBannerSectionController.h */,
-				2FDAC6A223C18040001003D5 /* SPBannerSectionController.m */,
-				2FDAC69623C1803F001003D5 /* SPBannerHeaderView.h */,
-				2FDAC69523C1803F001003D5 /* SPBannerHeaderView.m */,
-				2FDAC6A323C18040001003D5 /* SPBannerCell.h */,
-				2FDAC6A023C18040001003D5 /* SPBannerCell.m */,
-				2FDAC69923C1803F001003D5 /* SPHomeButtonSection.h */,
-				2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */,
-				2F5288BE23C30CAA0053E42A /* SPHomeButtonTwoSection.h */,
-				2F5288BD23C30CAA0053E42A /* SPHomeButtonTwoSection.m */,
-				2FDAC69723C1803F001003D5 /* SPHomeNotificSection.h */,
-				2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */,
-				2FDAC6A923C18040001003D5 /* SPHomeNotificCell.h */,
-				2FDAC69A23C1803F001003D5 /* SPHomeNotificCell.m */,
-				2FDAC69F23C18040001003D5 /* SPHomePictureSection.h */,
-				2FDAC69E23C18040001003D5 /* SPHomePictureSection.m */,
-				2FDAC6A723C18040001003D5 /* SPHomeSecKillSection.h */,
-				2FDAC6A623C18040001003D5 /* SPHomeSecKillSection.m */,
-				2FDAC6A823C18040001003D5 /* SPHomeSeckillTimeCell.h */,
-				2FDAC69C23C1803F001003D5 /* SPHomeSeckillTimeCell.m */,
-				2FDAC69423C1803F001003D5 /* SPHomeSeckillCollectionCell.h */,
-				2FDAC6AB23C18041001003D5 /* SPHomeSeckillCollectionCell.m */,
-				2FDAC69823C1803F001003D5 /* SPHomeTeamSection.h */,
-				2FDAC6A523C18040001003D5 /* SPHomeTeamSection.m */,
-				2FDAC6A123C18040001003D5 /* SPHomeTeamTwoSection.h */,
-				2FDAC69D23C1803F001003D5 /* SPHomeTeamTwoSection.m */,
-				2FDAC69B23C1803F001003D5 /* SPRecomendSection.h */,
-				2FDAC6AA23C18040001003D5 /* SPRecomendSection.m */,
-				2FEC478423C1E1F8005AC1FE /* SPHomeProductCell.h */,
-				2FEC478223C1E1CE005AC1FE /* SPHomeProductCell.m */,
+				2FC78B2223C7169E00718D62 /* 主页 */,
+				2FC78B2123C7168700718D62 /* 商品详情 */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -752,6 +783,131 @@
 			path = "个人中心";
 			sourceTree = "<group>";
 		};
+		2FC78B2123C7168700718D62 /* 商品详情 */ = {
+			isa = PBXGroup;
+			children = (
+				2FC78B4B23C716F900718D62 /* SPProductDetailViewController.h */,
+				2FC78B2323C716F800718D62 /* SPProductDetailViewController.m */,
+				2FC78B2723C716F900718D62 /* 商品 */,
+				2FC78B4023C716F900718D62 /* 评价 */,
+				2FC78B2423C716F900718D62 /* 详情 */,
+			);
+			path = "商品详情";
+			sourceTree = "<group>";
+		};
+		2FC78B2223C7169E00718D62 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				0CD17C112376BA9E00B38DC8 /* SPHomeViewController.h */,
+				0CD17C122376BA9E00B38DC8 /* SPHomeViewController.m */,
+				2FDAC6A423C18040001003D5 /* SPBannerSectionController.h */,
+				2FDAC6A223C18040001003D5 /* SPBannerSectionController.m */,
+				2FDAC69623C1803F001003D5 /* SPBannerHeaderView.h */,
+				2FDAC69523C1803F001003D5 /* SPBannerHeaderView.m */,
+				2FDAC6A323C18040001003D5 /* SPBannerCell.h */,
+				2FDAC6A023C18040001003D5 /* SPBannerCell.m */,
+				2FDAC69923C1803F001003D5 /* SPHomeButtonSection.h */,
+				2FDAC69323C1803F001003D5 /* SPHomeButtonSection.m */,
+				2F5288BE23C30CAA0053E42A /* SPHomeButtonTwoSection.h */,
+				2F5288BD23C30CAA0053E42A /* SPHomeButtonTwoSection.m */,
+				2FDAC69723C1803F001003D5 /* SPHomeNotificSection.h */,
+				2FDAC69223C1803F001003D5 /* SPHomeNotificSection.m */,
+				2FDAC6A923C18040001003D5 /* SPHomeNotificCell.h */,
+				2FDAC69A23C1803F001003D5 /* SPHomeNotificCell.m */,
+				2FDAC69F23C18040001003D5 /* SPHomePictureSection.h */,
+				2FDAC69E23C18040001003D5 /* SPHomePictureSection.m */,
+				2FDAC6A723C18040001003D5 /* SPHomeSecKillSection.h */,
+				2FDAC6A623C18040001003D5 /* SPHomeSecKillSection.m */,
+				2FDAC6A823C18040001003D5 /* SPHomeSeckillTimeCell.h */,
+				2FDAC69C23C1803F001003D5 /* SPHomeSeckillTimeCell.m */,
+				2FDAC69423C1803F001003D5 /* SPHomeSeckillCollectionCell.h */,
+				2FDAC6AB23C18041001003D5 /* SPHomeSeckillCollectionCell.m */,
+				2FDAC69823C1803F001003D5 /* SPHomeTeamSection.h */,
+				2FDAC6A523C18040001003D5 /* SPHomeTeamSection.m */,
+				2FDAC6A123C18040001003D5 /* SPHomeTeamTwoSection.h */,
+				2FDAC69D23C1803F001003D5 /* SPHomeTeamTwoSection.m */,
+				2FDAC69B23C1803F001003D5 /* SPRecomendSection.h */,
+				2FDAC6AA23C18040001003D5 /* SPRecomendSection.m */,
+				2FEC478423C1E1F8005AC1FE /* SPHomeProductCell.h */,
+				2FEC478223C1E1CE005AC1FE /* SPHomeProductCell.m */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		2FC78B2423C716F900718D62 /* 详情 */ = {
+			isa = PBXGroup;
+			children = (
+				2FC78B2523C716F900718D62 /* SPPDWebView.h */,
+				2FC78B2623C716F900718D62 /* SPPDWebView.m */,
+			);
+			path = "详情";
+			sourceTree = "<group>";
+		};
+		2FC78B2723C716F900718D62 /* 商品 */ = {
+			isa = PBXGroup;
+			children = (
+				2FC78B2E23C716F900718D62 /* SPPDetailView.h */,
+				2FC78B3523C716F900718D62 /* SPPDetailView.m */,
+				2FC78B3B23C716F900718D62 /* SPPDInfoSection.h */,
+				2FC78B3023C716F900718D62 /* SPPDInfoSection.m */,
+				2FC78B3323C716F900718D62 /* SPPDInfoCell.h */,
+				2FC78B3D23C716F900718D62 /* SPPDInfoCell.m */,
+				2FC78B3723C716F900718D62 /* SPPDTeamBuySection.h */,
+				2FC78B2C23C716F900718D62 /* SPPDTeamBuySection.m */,
+				2FC78B3823C716F900718D62 /* SPPDTeamBuyCell.h */,
+				2FC78B2B23C716F900718D62 /* SPPDTeamBuyCell.m */,
+				2FC78B3223C716F900718D62 /* SPPDSpecificationSection.h */,
+				2FC78B3E23C716F900718D62 /* SPPDSpecificationSection.m */,
+				2FC78B2D23C716F900718D62 /* SPPDSpecificationCell.h */,
+				2FC78B3623C716F900718D62 /* SPPDSpecificationCell.m */,
+				2FC78B3C23C716F900718D62 /* SPPDEvaluateSection.h */,
+				2FC78B2F23C716F900718D62 /* SPPDEvaluateSection.m */,
+				2FC78B2A23C716F900718D62 /* SPPDStoreSection.h */,
+				2FC78B3923C716F900718D62 /* SPPDStoreSection.m */,
+				2FC78B2823C716F900718D62 /* SPPDStoreTwoSection.h */,
+				2FC78B3423C716F900718D62 /* SPPDStoreTwoSection.m */,
+				2FC78B3F23C716F900718D62 /* SPPDIntroduceSection.h */,
+				2FC78B3123C716F900718D62 /* SPPDIntroduceSection.m */,
+				2FC78B2923C716F900718D62 /* SPPDIntroduceCell.h */,
+				2FC78B3A23C716F900718D62 /* SPPDIntroduceCell.m */,
+			);
+			path = "商品";
+			sourceTree = "<group>";
+		};
+		2FC78B4023C716F900718D62 /* 评价 */ = {
+			isa = PBXGroup;
+			children = (
+				2FC78B4123C716F900718D62 /* SPCommonPictureSectionController.m */,
+				2FC78B4223C716F900718D62 /* SPCommonPictureCell.h */,
+				2FC78B4323C716F900718D62 /* SPPCommonView.m */,
+				2FC78B4423C716F900718D62 /* SPCommonSectionController.m */,
+				2FC78B4523C716F900718D62 /* SPCommonCell.h */,
+				2FC78B4623C716F900718D62 /* SPCommonPictureSectionController.h */,
+				2FC78B4723C716F900718D62 /* SPPCommonView.h */,
+				2FC78B4823C716F900718D62 /* SPCommonPictureCell.m */,
+				2FC78B4923C716F900718D62 /* SPCommonCell.m */,
+				2FC78B4A23C716F900718D62 /* SPCommonSectionController.h */,
+			);
+			path = "评价";
+			sourceTree = "<group>";
+		};
+		2FC78B5F23C717C000718D62 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				2FC78B6023C717E100718D62 /* MZTimerLabel */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		2FC78B6023C717E100718D62 /* MZTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2FC78B6123C717E100718D62 /* MZTimerLabel.h */,
+				2FC78B6223C717E100718D62 /* MZTimerLabel.m */,
+			);
+			path = MZTimerLabel;
+			sourceTree = "<group>";
+		};
 		6AB85BBA576DA41B745C1E46 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -898,17 +1054,25 @@
 				2FDAC6C923C181A8001003D5 /* UIView+Xib.m in Sources */,
 				2FDAC6B123C18041001003D5 /* SPHomeTeamTwoSection.m in Sources */,
 				0CD17C132376BA9E00B38DC8 /* SPHomeViewController.m in Sources */,
+				2FC78B5B23C716F900718D62 /* SPPCommonView.m in Sources */,
 				0CD17C0D23769CB700B38DC8 /* TabBarViewController.m in Sources */,
+				2FC78B5323C716F900718D62 /* SPPDStoreTwoSection.m in Sources */,
+				2FC78B5623C716F900718D62 /* SPPDStoreSection.m in Sources */,
+				2FC78B5523C716F900718D62 /* SPPDSpecificationCell.m in Sources */,
 				0C44D60F2394C4600075DCAD /* LanchAPI.m in Sources */,
 				0CAD6DC2238785CB00306602 /* UserManager.m in Sources */,
+				2FC78B4D23C716F900718D62 /* SPPDWebView.m in Sources */,
 				2FDAC6DB23C18269001003D5 /* YXBNavigationController.m in Sources */,
 				2FDAC6B623C18041001003D5 /* SPHomeSecKillSection.m in Sources */,
 				0C0BE841237ECC1C0025D0F9 /* YXBCell.m in Sources */,
+				2FC78B5823C716F900718D62 /* SPPDInfoCell.m in Sources */,
 				0C23D5F4239657C20084B326 /* YXBButtonCell.m in Sources */,
 				0C23D60D239658E40084B326 /* CMVideoModel.m in Sources */,
 				2FDAC6C723C181A8001003D5 /* UIButton+YXBAdd.m in Sources */,
 				0CFBCB8C23812F2700D3921F /* ChineseToPinyin.m in Sources */,
 				0C23D5D1239652D00084B326 /* CMRecommendSection3.m in Sources */,
+				2FC78B5C23C716F900718D62 /* SPCommonSectionController.m in Sources */,
+				2FC78B5A23C716F900718D62 /* SPCommonPictureSectionController.m in Sources */,
 				0C0BE84A237ECD530025D0F9 /* YXBSection.m in Sources */,
 				0CFBCB8E23812F2700D3921F /* YXBTextField.m in Sources */,
 				2FDAC6B423C18041001003D5 /* SPBannerSectionController.m in Sources */,
@@ -926,19 +1090,26 @@
 				0C23D5CA239652D00084B326 /* UIView+Alert.m in Sources */,
 				0C23D5C7239652D00084B326 /* CMCommentCell.m in Sources */,
 				0C44D6062394B06E0075DCAD /* YXBConstDefine.m in Sources */,
+				2FC78B5023C716F900718D62 /* SPPDEvaluateSection.m in Sources */,
 				0C23D600239658D40084B326 /* InsVideoCommentAPI.m in Sources */,
+				2FC78B4E23C716F900718D62 /* SPPDTeamBuyCell.m in Sources */,
 				2F5288CC23C31A1E0053E42A /* PSHomeThirdSection.m in Sources */,
+				2FC78B6323C717E100718D62 /* MZTimerLabel.m in Sources */,
 				0C23D5D2239652D00084B326 /* CMReconmmendCell.m in Sources */,
 				0C44D60C2394C3290075DCAD /* LanchPageModel.m in Sources */,
 				0C23D60E239658E40084B326 /* ProductModel.m in Sources */,
 				0C0BE847237ECC890025D0F9 /* YXBHeaderView.m in Sources */,
+				2FC78B5D23C716F900718D62 /* SPCommonPictureCell.m in Sources */,
 				2FDAC6BC23C1815D001003D5 /* CDDetailHeaderView.m in Sources */,
+				2FC78B5223C716F900718D62 /* SPPDIntroduceSection.m in Sources */,
 				2FDAC6D723C18221001003D5 /* YXBFormImageCell.m in Sources */,
 				0C44D60B2394C3290075DCAD /* YXBLanchManager.m in Sources */,
 				0CFBCB8D23812F2700D3921F /* YXBUnicode.m in Sources */,
+				2FC78B4C23C716F900718D62 /* SPProductDetailViewController.m in Sources */,
 				2F102EA023C468FC00FB9C6D /* CTHEmptySection.m in Sources */,
 				2FDAC6D523C18221001003D5 /* YXBFormLeftRightBgCell.m in Sources */,
 				2FDAC6C823C181A8001003D5 /* NSLayoutConstraint+AutoScale.m in Sources */,
+				2FC78B5923C716F900718D62 /* SPPDSpecificationSection.m in Sources */,
 				2FDAC6B323C18041001003D5 /* SPBannerCell.m in Sources */,
 				2FDAC6B023C18041001003D5 /* SPHomeSeckillTimeCell.m in Sources */,
 				0C23D5C5239652D00084B326 /* CMVideoBaseViewController.m in Sources */,
@@ -951,8 +1122,10 @@
 				0C23D601239658D40084B326 /* SelVideoCommentListAPI.m in Sources */,
 				2F5288CD23C31A1E0053E42A /* PSHomeViewController.m in Sources */,
 				2F102E9F23C468FC00FB9C6D /* CTHProductModel.m in Sources */,
+				2FC78B5E23C716F900718D62 /* SPCommonCell.m in Sources */,
 				0C23D59B23964CAF0084B326 /* MGiftSection.m in Sources */,
 				2FDAC6AD23C18041001003D5 /* SPHomeButtonSection.m in Sources */,
+				2FC78B4F23C716F900718D62 /* SPPDTeamBuySection.m in Sources */,
 				0C0BE852237ED07C0025D0F9 /* MyRequst.m in Sources */,
 				2FDAC6AE23C18041001003D5 /* SPBannerHeaderView.m in Sources */,
 				0C23D5FF239658D40084B326 /* CircleCollectionAPI.m in Sources */,
@@ -968,10 +1141,13 @@
 				0C23D59C23964CAF0084B326 /* MemberViewController.m in Sources */,
 				0C0BE844237ECC720025D0F9 /* YXBCollectionCell.m in Sources */,
 				0C23D5C4239652D00084B326 /* CMVideoPageViewController.m in Sources */,
+				2FC78B5123C716F900718D62 /* SPPDInfoSection.m in Sources */,
 				0C0A1E18237693B7004F886B /* main.m in Sources */,
 				0C0BE83D237ECC0E0025D0F9 /* YXBBaseModel.m in Sources */,
 				2F5288CE23C31A1E0053E42A /* PSHOrderHeaderView.m in Sources */,
+				2FC78B5423C716F900718D62 /* SPPDetailView.m in Sources */,
 				0C23D59A23964CAF0084B326 /* MShareSection.m in Sources */,
+				2FC78B5723C716F900718D62 /* SPPDIntroduceCell.m in Sources */,
 				2FDAC6D823C18221001003D5 /* YXBFormLeftRightCell.m in Sources */,
 				2F5288D023C31A1E0053E42A /* PSHomeOrderSection.m in Sources */,
 				2FDAC6B823C18041001003D5 /* SPHomeSeckillCollectionCell.m in Sources */,

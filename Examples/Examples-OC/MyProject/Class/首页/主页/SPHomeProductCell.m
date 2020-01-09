@@ -158,14 +158,22 @@
         make.width.height.lessThanOrEqualTo(self.contentView);
     }];
     
+    self.otherPriceLabel.font = [UIFont systemFontOfSize:12];
+    self.otherPriceLabel.textColor = YXBColorRed;
+    [self.otherPriceLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(0);
+        make.top.mas_equalTo(self.productImageView.mas_bottom).mas_offset(10);
+        make.width.priorityLow();
+    }];
+    
     self.priceLabel.font = [UIFont boldSystemFontOfSize:15];
     self.priceLabel.textColor = YXBColorRed;
     [self.priceLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(0);
-        make.top.mas_equalTo(self.productImageView.mas_bottom).mas_offset(10);
+        make.left.mas_equalTo(self.otherPriceLabel.mas_right).mas_offset(5);
+        make.bottom.mas_equalTo(self.otherPriceLabel.mas_bottom);
         make.right.mas_equalTo(0);
     }];
-    
+
     self.nameLabel.font = [UIFont systemFontOfSize:14];
     self.nameLabel.textColor = YXBColorBlack;
     [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -234,5 +242,52 @@
         make.bottom.mas_equalTo(self.priceLabel);
     }];
 }
+
+/// 商品详情 --- 店铺商品 布局
+- (void)layoutWithDetailStoreProduct {
+    [self.productImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(0);
+        make.top.mas_equalTo(0);
+        make.right.mas_equalTo(0);
+         //设置宽高比例
+        make.width.mas_equalTo(self.productImageView.mas_height).multipliedBy(1);
+        //设置优先级
+        make.width.height.mas_equalTo(self.contentView).priorityLow();
+        make.width.height.lessThanOrEqualTo(self.contentView);
+    }];
+    
+    self.priceLabel.font = [UIFont boldSystemFontOfSize:15];
+    self.priceLabel.textColor = YXBColorRed;
+    [self.priceLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(0);
+        make.top.mas_equalTo(self.productImageView.mas_bottom).mas_offset(10);
+        make.width.priorityLow();
+    }];
+    
+    self.otherPriceLabel.font = [UIFont systemFontOfSize:10];
+    self.otherPriceLabel.textColor = YXBColorGray_999;
+    [self.otherPriceLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(self.priceLabel.mas_right).mas_offset(5);
+        make.bottom.mas_equalTo(self.priceLabel.mas_bottom);
+        make.right.mas_equalTo(0);
+    }];
+    
+    self.savePriceLabel.backgroundColor = YXBColorGray_999;
+    [self.savePriceLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.mas_equalTo(35);
+        make.left.mas_equalTo(self.otherPriceLabel);
+        make.centerY.mas_equalTo(self.otherPriceLabel);
+        make.height.mas_equalTo(1);
+    }];
+  
+    self.nameLabel.font = [UIFont systemFontOfSize:14];
+    self.nameLabel.textColor = YXBColorBlack;
+    [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(0);
+        make.right.mas_equalTo(0);
+        make.top.mas_equalTo(self.priceLabel.mas_bottom).mas_offset(5);
+    }];
+}
+
 
 @end

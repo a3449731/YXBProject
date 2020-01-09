@@ -35,6 +35,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 首页 推荐 布局
 - (void)layoutWithHomeRecomend;
 
+/// 商品详情 --- 店铺商品 布局
+- (void)layoutWithDetailStoreProduct;
+
 @end
 
 NS_ASSUME_NONNULL_END

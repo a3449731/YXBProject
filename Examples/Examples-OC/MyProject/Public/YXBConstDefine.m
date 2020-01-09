@@ -15,7 +15,13 @@ NSInteger const YXBAccuracyFour = 4;
 NSInteger const YXBAccuracyEight = 8;
 NSString *const YXBAccuracyAddString = @"0"; // 补精度使用的字符串
 
+NSString *const SPProductDetailProduct = @"0";
+NSString *const SPProductDetailEvaluate = @"1";
+NSString *const SPProductDetailWebview = @"2";
+
 NSString *const CTHomeChooseChangeNotification = @"CTHomeChooseChangeNotification";
+
+NSString *const SPProductDetailJumpNotification = @"SPProductDetailJumpNotification";
 
 @implementation YXBConstDefine
 

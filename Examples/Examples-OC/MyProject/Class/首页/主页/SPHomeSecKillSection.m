@@ -192,7 +192,7 @@ static NSInteger SeckillProductCellHeght = 128;
     cell.productImageView.image = [UIImage imageNamed:@"sy_hot_goods"];
     cell.nameLabel.text = @"TOM FORD汤姆福特细黑管柔雾 缎采唇膏 tf口红13 丝绒";
     cell.priceLabel.text = @"￥289";
-    [cell.tipButton setImage:[UIImage imageNamed:@"sy_seckill_label"] forState:(UIControlStateNormal)];
+    [cell.tipButton setImage:[UIImage imageNamed:@"sy_seckill_lable_middle_seckill"] forState:(UIControlStateNormal)];
     cell.percentLabel.text = @"已抢69%";
     cell.percentProgress.progress = 0.69;
     cell.randomImageView.image = [UIImage imageNamed:@"sy_seckill_lable_middle"];
