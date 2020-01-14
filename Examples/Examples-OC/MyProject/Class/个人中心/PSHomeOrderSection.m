@@ -69,6 +69,7 @@
 - (void)cell:(YXBButtonCell *)cell ForModel:(NSDictionary *)model {
     [cell.button setImage:[UIImage imageNamed:model[@"picuture"]] forState:(UIControlStateNormal)];
     [cell.button setTitle:model[@"name"] forState:(UIControlStateNormal)];
+    [cell.button sizeToFit];
 }
 
 - (void)didUpdateToObject:(id)object {

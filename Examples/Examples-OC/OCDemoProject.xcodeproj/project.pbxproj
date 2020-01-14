@@ -75,6 +75,8 @@
 		2F102E9F23C468FC00FB9C6D /* CTHProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9523C468FB00FB9C6D /* CTHProductModel.m */; };
 		2F102EA023C468FC00FB9C6D /* CTHEmptySection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9623C468FB00FB9C6D /* CTHEmptySection.m */; };
 		2F102EA123C468FC00FB9C6D /* CTHProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F102E9723C468FB00FB9C6D /* CTHProductCell.m */; };
+		2F3149C823CD72330043BC25 /* SPSearchReulstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3149C523CD72320043BC25 /* SPSearchReulstViewController.m */; };
+		2F3149CC23CD74370043BC25 /* SPHomeSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3149CB23CD74370043BC25 /* SPHomeSearchResultCell.m */; };
 		2F5288BF23C30CAA0053E42A /* SPHomeButtonTwoSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288BD23C30CAA0053E42A /* SPHomeButtonTwoSection.m */; };
 		2F5288CC23C31A1E0053E42A /* PSHomeThirdSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288C223C31A1D0053E42A /* PSHomeThirdSection.m */; };
 		2F5288CD23C31A1E0053E42A /* PSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5288C623C31A1D0053E42A /* PSHomeViewController.m */; };
@@ -271,6 +273,10 @@
 		2F102E9723C468FB00FB9C6D /* CTHProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHProductCell.m; sourceTree = "<group>"; };
 		2F102E9823C468FC00FB9C6D /* CTHEmptySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHEmptySection.h; sourceTree = "<group>"; };
 		2F102E9923C468FC00FB9C6D /* CTHProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHProductCell.h; sourceTree = "<group>"; };
+		2F3149C523CD72320043BC25 /* SPSearchReulstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSearchReulstViewController.m; sourceTree = "<group>"; };
+		2F3149C723CD72320043BC25 /* SPSearchReulstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearchReulstViewController.h; sourceTree = "<group>"; };
+		2F3149CA23CD74370043BC25 /* SPHomeSearchResultCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPHomeSearchResultCell.h; sourceTree = "<group>"; };
+		2F3149CB23CD74370043BC25 /* SPHomeSearchResultCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPHomeSearchResultCell.m; sourceTree = "<group>"; };
 		2F5288BD23C30CAA0053E42A /* SPHomeButtonTwoSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHomeButtonTwoSection.m; sourceTree = "<group>"; };
 		2F5288BE23C30CAA0053E42A /* SPHomeButtonTwoSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHomeButtonTwoSection.h; sourceTree = "<group>"; };
 		2F5288C123C31A1D0053E42A /* PSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHomeViewController.h; sourceTree = "<group>"; };
@@ -577,6 +583,7 @@
 			isa = PBXGroup;
 			children = (
 				2FC78B2223C7169E00718D62 /* 主页 */,
+				2F3149C323CD72320043BC25 /* 搜索 */,
 				2FC78B2123C7168700718D62 /* 商品详情 */,
 			);
 			path = "首页";
@@ -763,6 +770,17 @@
 				2F102E9123C468FB00FB9C6D /* CTHEmptyCell.m */,
 			);
 			path = "购物车";
+			sourceTree = "<group>";
+		};
+		2F3149C323CD72320043BC25 /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				2F3149C723CD72320043BC25 /* SPSearchReulstViewController.h */,
+				2F3149C523CD72320043BC25 /* SPSearchReulstViewController.m */,
+				2F3149CA23CD74370043BC25 /* SPHomeSearchResultCell.h */,
+				2F3149CB23CD74370043BC25 /* SPHomeSearchResultCell.m */,
+			);
+			path = "搜索";
 			sourceTree = "<group>";
 		};
 		2F5288C023C319E50053E42A /* 个人中心 */ = {
@@ -1078,6 +1096,7 @@
 				2FDAC6B423C18041001003D5 /* SPBannerSectionController.m in Sources */,
 				2FDAC6AF23C18041001003D5 /* SPHomeNotificCell.m in Sources */,
 				0C23D5C2239652D00084B326 /* CMHomeViewController.m in Sources */,
+				2F3149CC23CD74370043BC25 /* SPHomeSearchResultCell.m in Sources */,
 				2FDAC6AC23C18041001003D5 /* SPHomeNotificSection.m in Sources */,
 				0C23D5D0239652D00084B326 /* CMRecommendSection4.m in Sources */,
 				2FEC478323C1E1CE005AC1FE /* SPHomeProductCell.m in Sources */,
@@ -1128,6 +1147,7 @@
 				2FC78B4F23C716F900718D62 /* SPPDTeamBuySection.m in Sources */,
 				0C0BE852237ED07C0025D0F9 /* MyRequst.m in Sources */,
 				2FDAC6AE23C18041001003D5 /* SPBannerHeaderView.m in Sources */,
+				2F3149C823CD72330043BC25 /* SPSearchReulstViewController.m in Sources */,
 				0C23D5FF239658D40084B326 /* CircleCollectionAPI.m in Sources */,
 				0CFBCB9023812F2700D3921F /* YXBTapAreaButton.m in Sources */,
 				0C23D5CC239652D00084B326 /* BrandsCell.m in Sources */,

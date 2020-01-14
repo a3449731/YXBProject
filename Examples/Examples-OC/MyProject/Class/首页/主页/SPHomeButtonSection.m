@@ -44,6 +44,21 @@
 //    IGListCollectionViewLayout *layout = [[IGListCollectionViewLayout alloc] initWithStickyHeaders:NO scrollDirection:(UICollectionViewScrollDirectionHorizontal) topContentInset:0 stretchToEdge:NO];
     cell.collectionView.pagingEnabled = YES;
     [cell.collectionView setCollectionViewLayout:layout];
+    
+    
+    if (cell.collectionView.contentOffset.x) {
+        if ((NSInteger)cell.collectionView.contentOffset.x % (NSInteger)(kItemWidthCount(1)) > (kItemWidthCount(1)) / 2) {
+            CGFloat x = ((NSInteger)cell.collectionView.contentOffset.x / (NSInteger)(kItemWidthCount(1)) + 1) * (kItemWidthCount(1));
+            cell.collectionView.contentOffset = CGPointMake(x, 0);
+        } else {
+            CGFloat x = ((NSInteger)cell.collectionView.contentOffset.x / (NSInteger)(kItemWidthCount(1))) * (kItemWidthCount(1));
+            cell.collectionView.contentOffset = CGPointMake(x, 0);
+        }
+    }
+     
+//    [cell.collectionView qmui_scrollToTop];
+    
+    InvalidateScrollViewAdjustBehavior(self.viewController, cell.collectionView);
     self.adapter.collectionView = cell.collectionView;
     return cell;
 }

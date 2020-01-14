@@ -35,6 +35,8 @@
 
 - (void)requestFailedFilter {
     NSLog(@"%@",self);
+    NSLog(@"%@",self.responseJSONObject);
+    NSLog(@"%@",self.response.MIMEType);
 }
 
 

@@ -54,7 +54,7 @@
 
 - (void)configFirstVC {
     UIViewController *vc = [[SPHomeViewController alloc] init];
-    UINavigationController *nav = [[CYLBaseNavigationController alloc]
+    UINavigationController *nav = [[YXBNavigationController alloc]
                              initWithRootViewController:vc];
     nav.navigationBar.translucent = NO;
     CGFloat firstXOffset = -12/2;
@@ -74,7 +74,7 @@
 
 - (void)configSecondVC {
     UIViewController *vc = [[CMHomeViewController alloc] init];
-    UINavigationController *nav = [[CYLBaseNavigationController alloc]
+    UINavigationController *nav = [[YXBNavigationController alloc]
                              initWithRootViewController:vc];
     nav.navigationBar.translucent = NO;
     CGFloat firstXOffset = -12/2;

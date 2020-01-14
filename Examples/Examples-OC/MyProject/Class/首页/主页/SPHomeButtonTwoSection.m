@@ -62,6 +62,7 @@
     } else {
         [cell.button setTitle:nil forState:(UIControlStateNormal)];
     }
+    [cell.button sizeToFit];
 }
 
 - (void)didUpdateToObject:(id)object {
